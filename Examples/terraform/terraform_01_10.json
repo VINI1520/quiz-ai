@@ -1,0 +1,284 @@
+{
+    "questions": [
+        {
+            "question": "What is Terraform primarily used for?",
+            "options": ["Network Configuration", "Infrastructure as Code", "Application Deployment", "Backup Management"],
+            "answer": "Infrastructure as Code"
+        },
+        {
+            "question": "Which command initializes a new Terraform directory?",
+            "options": ["terraform start", "terraform init", "terraform new", "terraform create"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "Which file format is commonly used for Terraform configuration files?",
+            "options": ["JSON", ".env", "HCL", "XML"],
+            "answer": "HCL"
+        },
+        {
+            "question": "What is the full form of IaC?",
+            "options": ["Intelligent Automation Configuration", "Infrastructure as Code", "Integrated Application Control", "Internal Algorithm Coding"],
+            "answer": "Infrastructure as Code"
+        },
+        {
+            "question": "Which cloud providers does Terraform support?",
+            "options": ["AWS only", "Azure only", "AWS and Azure", "None"],
+            "answer": "AWS and Azure"
+        },
+        {
+            "question": "What is a Terraform resource in IaC?",
+            "options": ["A programming language", "A virtual machine", "A piece of infrastructure", "A network protocol"],
+            "answer": "A piece of infrastructure"
+        },
+        {
+            "question": "What is the purpose of Terraform providers?",
+            "options": ["To write code in Terraform", "To define resources", "To manage state", "To interact with APIs"],
+            "answer": "To interact with APIs"
+        },
+        {
+            "question": "Which programming language is used for writing Terraform configurations?",
+            "options": ["Python", "JavaScript", "Ruby", "HCL"],
+            "answer": "HCL"
+        },
+        {
+            "question": "In Terraform, what is the purpose of the 'terraform plan' command?",
+            "options": ["To create a new directory", "To execute a configuration", "To show the execution plan", "To destroy resources"],
+            "answer": "To show the execution plan"
+        },
+        {
+            "question": "What is the main advantage of using Infrastructure as Code (IaC)?",
+            "options": ["It allows you to write code in any language", "It enables automated provisioning and management of infrastructure", "It simplifies network configuration", "It provides advanced analytics tools"],
+            "answer": "It enables automated provisioning and management of infrastructure"
+        },
+        {
+            "question": "Which HashiCorp product is specifically designed for secret management?",
+            "options": ["Terraform", "Consul", "Vault", "Nomad"],
+            "answer": "Vault"
+        },
+        {
+            "question": "What is the purpose of a Terraform state file?",
+            "options": ["To store secret keys", "To track the changes made to infrastructure", "To store environment variables", "To manage virtual machines"],
+            "answer": "To track the changes made to infrastructure"
+        },
+        {
+            "question": "What is the default file name for a Terraform configuration file?",
+            "options": ["terraform.hcl", "main.tf", "configuration.tf", "terraform.yaml"],
+            "answer": "main.tf"
+        },
+        {
+            "question": "Which Terraform command is used to apply changes to infrastructure?",
+            "options": ["terraform apply", "terraform update", "terraform deploy", "terraform confirm"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "What is the purpose of Terraform workspaces?",
+            "options": ["To create virtual environments", "To organize configurations", "To manage Docker containers", "To store encrypted secrets"],
+            "answer": "To organize configurations"
+        },
+        {
+            "question": "Which configuration management tool competes with Terraform in the IaC space?",
+            "options": ["Chef", "Ansible", "Puppet", "SaltStack"],
+            "answer": "Ansible"
+        },
+        {
+            "question": "What is the key difference between Terraform and traditional configuration management tools like Ansible?",
+            "options": ["Terraform uses HCL, while Ansible uses YAML", "Terraform is agent-based, while Ansible is agentless", "Terraform is only for cloud infrastructure, while Ansible can manage all systems", "There is no difference, they are the same"],
+            "answer": "Terraform is agent-based, while Ansible is agentless"
+        },
+        {
+            "question": "What does HCL stand for in the context of Terraform?",
+            "options": ["HashiCorp Configuration Language", "Hypertext Configuration Language", "High-Level Configuration Language", "Host Control Language"],
+            "answer": "HashiCorp Configuration Language"
+        },
+        {
+            "question": "What is the purpose of a Terraform variable?",
+            "options": ["To define a programming function", "To store API keys", "To parameterize configurations", "To manage DNS records"],
+            "answer": "To parameterize configurations"
+        },
+        {
+            "question": "In Terraform, what does the 'terraform apply' command do?",
+            "options": ["Generates a configuration plan", "Deletes all resources", "Applies the changes to infrastructure", "Rolls back changes"],
+            "answer": "Applies the changes to infrastructure"
+        },
+        {
+            "question": "Which Terraform command is used to destroy all resources created by a configuration?",
+            "options": ["terraform terminate", "terraform delete", "terraform destroy", "terraform clean"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the purpose of Terraform output variables?",
+            "options": ["To display error messages", "To store sensitive data", "To provide information to external scripts", "To delete resources"],
+            "answer": "To provide information to external scripts"
+        },
+        {
+            "question": "Which Terraform command is used to validate the configuration files for syntax errors?",
+            "options": ["terraform check", "terraform validate", "terraform test", "terraform lint"],
+            "answer": "terraform validate"
+        },
+        {
+            "question": "What is the Terraform Enterprise offering by HashiCorp primarily focused on?",
+            "options": ["Secret management", "Configuration management", "Collaborative infrastructure workflows", "Container orchestration"],
+            "answer": "Collaborative infrastructure workflows"
+        },
+        {
+            "question": "Which section of a Terraform configuration file specifies the provider and its settings?",
+            "options": ["variables", "resources", "provider", "output"],
+            "answer": "provider"
+        },
+        {
+            "question": "What is the purpose of a Terraform data source?",
+            "options": ["To define input variables", "To specify the desired state of resources", "To fetch information from existing resources", "To execute custom scripts"],
+            "answer": "To fetch information from existing resources"
+        },
+        {
+            "question": "Which command is used to create a new Terraform module?",
+            "options": ["terraform new-module", "terraform create-module", "terraform build", "terraform init-module"],
+            "answer": "terraform new-module"
+        },
+        {
+            "question": "In Terraform, what is a remote state backend?",
+            "options": ["A separate Terraform configuration file", "A cloud-based storage for storing Terraform state", "A stateless Terraform deployment", "An external script used for validation"],
+            "answer": "A cloud-based storage for storing Terraform state"
+        },
+        {
+            "question": "What is the purpose of Terraform's 'terraform.tfstate' file?",
+            "options": ["To store secret keys", "To track the changes made to infrastructure", "To store environment variables", "To manage virtual machines"],
+            "answer": "To track the changes made to infrastructure"
+        },
+        {
+            "question": "What does the 'terraform refresh' command do in Terraform?",
+            "options": ["Deletes all resources", "Re-runs the 'terraform plan' command", "Updates the Terraform binary", "Synchronizes Terraform state with real resources"],
+            "answer": "Synchronizes Terraform state with real resources"
+        },
+        {
+            "question": "What is a Terraform provisioner used for?",
+            "options": ["To initialize a new Terraform directory", "To apply changes to infrastructure", "To fetch data from external APIs", "To run scripts on a resource after creation"],
+            "answer": "To run scripts on a resource after creation"
+        },
+        {
+            "question": "What is the purpose of a Terraform module?",
+            "options": ["To manage secrets", "To define the overall infrastructure layout", "To package and reuse configurations", "To create virtual machines"],
+            "answer": "To package and reuse configurations"
+        },
+        {
+            "question": "Which Terraform command is used to show the current state of resources?",
+            "options": ["terraform status", "terraform show", "terraform state", "terraform list"],
+            "answer": "terraform show"
+        },
+        {
+            "question": "What is the syntax for defining a variable in HCL?",
+            "options": ["$variable_name = value", "variable name = value", "var name = value", "variable name value"],
+            "answer": "variable name = value"
+        },
+        {
+            "question": "What is the purpose of a Terraform locals block?",
+            "options": ["To define remote resources", "To store secret keys", "To calculate values within the configuration", "To specify resource dependencies"],
+            "answer": "To calculate values within the configuration"
+        },
+        {
+            "question": "What is the default backend for Terraform state storage?",
+            "options": ["Amazon S3", "Azure Blob Storage", "Local file", "Google Cloud Storage"],
+            "answer": "Local file"
+        },
+        {
+            "question": "What is a Terraform data block used for?",
+            "options": ["To define input variables", "To specify the desired state of resources", "To fetch information from existing resources", "To create virtual machines"],
+            "answer": "To define input variables"
+        },
+        {
+            "question": "Which keyword is used to specify a required input variable in HCL?",
+            "options": ["required", "input", "mandatory", "variable"],
+            "answer": "variable"
+        },
+        {
+            "question": "What is the purpose of the 'count' parameter in a Terraform resource block?",
+            "options": ["To specify the number of resources to create", "To define the resource's type", "To provide a unique identifier", "To run custom scripts"],
+            "answer": "To specify the number of resources to create"
+        },
+        {
+            "question": "Which Terraform command is used to import existing infrastructure into Terraform state?",
+            "options": ["terraform import", "terraform import-resource", "terraform add-resource", "terraform sync"],
+            "answer": "terraform import"
+        },
+        {
+            "question": "What is the purpose of the 'depends_on' parameter in a Terraform resource block?",
+            "options": ["To specify resource dependencies", "To control the resource's ordering", "To define output variables", "To manage secrets"],
+            "answer": "To specify resource dependencies"
+        },
+        {
+            "question": "Which command is used to generate documentation for a Terraform configuration?",
+            "options": ["terraform doc", "terraform generate-docs", "terraform-docgen", "terraform fmt"],
+            "answer": "terraform-docgen"
+        },
+        {
+            "question": "What is a Terraform remote backend?",
+            "options": ["A remote repository for Terraform code", "A remote execution environment for Terraform", "A remote monitoring tool", "A remote configuration file"],
+            "answer": "A remote repository for Terraform code"
+        },
+        {
+            "question": "What is the purpose of a Terraform output block?",
+            "options": ["To store secret keys", "To specify the desired state of resources", "To provide information to external scripts", "To define remote resources"],
+            "answer": "To provide information to external scripts"
+        },
+        {
+            "question": "What is the Terraform Registry?",
+            "options": ["A service for managing Terraform state", "A marketplace for Terraform modules", "A tool for testing Terraform configurations", "A version control system for Terraform code"],
+            "answer": "A marketplace for Terraform modules"
+        },
+        {
+            "question": "In Terraform, what does the 'terraform state' command do?",
+            "options": ["Deletes all resources", "Displays the current state of resources", "Synchronizes Terraform state with real resources", "Creates a new state file"],
+            "answer": "Displays the current state of resources"
+        },
+        {
+            "question": "Which keyword is used to define a variable type in HCL?",
+            "options": ["var", "type", "variable", "string"],
+            "answer": "type"
+        },
+        {
+            "question": "What is the purpose of the 'lifecycle' block in a Terraform resource block?",
+            "options": ["To define resource dependencies", "To specify resource ordering", "To configure resource lifecycle behavior", "To run custom scripts"],
+            "answer": "To configure resource lifecycle behavior"
+        },
+        {
+            "question": "Which Terraform command is used to upgrade the Terraform CLI to the latest version?",
+            "options": ["terraform upgrade", "terraform update", "terraform get", "terraform upgrade-cli"],
+            "answer": "terraform upgrade"
+        },
+        {
+            "question": "What does the 'terraform graph' command do in Terraform?",
+            "options": ["Generates a graphical representation of the configuration", "Deploys resources to the cloud", "Deletes all resources", "Compiles HCL code"],
+            "answer": "Generates a graphical representation of the configuration"
+        },
+        {
+            "question": "What is a Terraform state lock?",
+            "options": ["A mechanism to prevent concurrent state modifications", "A way to encrypt state files", "A feature to hide sensitive information", "A resource type in Terraform"],
+            "answer": "A mechanism to prevent concurrent state modifications"
+        },
+        {
+            "question": "What is the purpose of the 'terraform taint' command in Terraform?",
+            "options": ["To delete resources", "To mark a resource as tainted", "To create a new resource", "To validate configurations"],
+            "answer": "To mark a resource as tainted"
+        },
+        {
+            "question": "What is a Terraform module registry?",
+            "options": ["A centralized repository for Terraform modules", "A tool for managing Terraform secrets", "A graphical representation of Terraform configurations", "A feature to generate Terraform documentation"],
+            "answer": "A centralized repository for Terraform modules"
+        },
+        {
+            "question": "What is the purpose of the 'terraform force-unlock' command in Terraform?",
+            "options": ["To force a resource update", "To unlock a locked state", "To forcibly apply changes", "To create a new resource"],
+            "answer": "To unlock a locked state"
+        },
+        {
+            "question": "What is the primary benefit of using Terraform workspaces?",
+            "options": ["Isolation of state files", "Easier access to the Terraform CLI", "Parallel execution of configurations", "Enhanced security features"],
+            "answer": "Isolation of state files"
+        },
+        {
+            "question": "What is a Terraform Sentinel policy?",
+            "options": ["A policy for managing secrets", "A policy for managing state files", "A policy for controlling access to Terraform resources", "A policy for generating documentation"],
+            "answer": "A policy for controlling access to Terraform resources"
+        }
+    ]
+}
