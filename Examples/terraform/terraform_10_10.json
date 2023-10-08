@@ -1,0 +1,239 @@
+{
+    "questions": [
+        {
+            "question": "What is Terraform primarily used for?",
+            "options": ["Code versioning", "Infrastructure as Code", "Application Deployment", "Database Administration"],
+            "answer": "Infrastructure as Code"
+        },
+        {
+            "question": "Which command initializes a new Terraform working directory?",
+            "options": ["terraform start", "terraform init", "terraform new", "terraform create"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "In Terraform, what is the purpose of a `provider` block?",
+            "options": ["To define resource configurations", "To specify cloud or service provider", "To organize variables", "To define output values"],
+            "answer": "To specify cloud or service provider"
+        },
+        {
+            "question": "What file extension does Terraform configuration files use?",
+            "options": [".tf", ".terra", ".tfm", ".ter"],
+            "answer": ".tf"
+        },
+        {
+            "question": "Which command would you use to apply the changes in Terraform?",
+            "options": ["terraform deploy", "terraform run", "terraform execute", "terraform apply"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "What tool can you use to test your Terraform code?",
+            "options": ["Terratest", "Testify", "TerraformTest", "Terracheck"],
+            "answer": "Terratest"
+        },
+        {
+            "question": "What type of testing involves testing a Terraform module in isolation?",
+            "options": ["Integration Testing", "Module Testing", "Unit Testing", "Functional Testing"],
+            "answer": "Unit Testing"
+        },
+        {
+            "question": "In which file can you define output values in Terraform?",
+            "options": ["output.tf", "main.tf", "vars.tf", "provider.tf"],
+            "answer": "output.tf"
+        },
+        {
+            "question": "What is the primary purpose of the `tfstate` file in Terraform?",
+            "options": ["Store configuration values", "Track the current state of resources", "Backup old configurations", "Define desired infrastructure"],
+            "answer": "Track the current state of resources"
+        },
+        {
+            "question": "Which command can you use to view the execution plan in Terraform?",
+            "options": ["terraform show", "terraform view", "terraform plan", "terraform check"],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "How can you protect sensitive data in Terraform?",
+            "options": ["Using provider settings", "Encrypting the entire project", "Using input and output variables", "Using secrets in state files"],
+            "answer": "Using input and output variables"
+        },
+        {
+            "question": "Which command is used to download and update modules in Terraform?",
+            "options": ["terraform get", "terraform module update", "terraform fetch", "terraform pull"],
+            "answer": "terraform get"
+        },
+        {
+            "question": "What should you do before migrating Terraform state?",
+            "options": ["Backup the state file", "Delete old resources", "Change provider credentials", "Ignore versioning"],
+            "answer": "Backup the state file"
+        },
+        {
+            "question": "For large projects, it's a best practice to split Terraform configurations into?",
+            "options": ["Multiple providers", "Multiple variables", "Multiple state files", "Multiple resources"],
+            "answer": "Multiple state files"
+        },
+        {
+            "question": "What is a Terraform `module`?",
+            "options": ["A provider configuration", "A reusable code block", "A state file", "A cloud resource"],
+            "answer": "A reusable code block"
+        },
+        {
+            "question": "Which of the following is a migration strategy in Terraform?",
+            "options": ["State Movement", "Provider Switch", "Module Refactor", "Variable Rename"],
+            "answer": "State Movement"
+        },
+        {
+            "question": "Which Terraform command can be used to inspect the current values of outputs?",
+            "options": ["terraform inspect", "terraform look", "terraform output", "terraform show"],
+            "answer": "terraform output"
+        },
+        {
+            "question": "Which of the following is a recommended best practice in Terraform?",
+            "options": ["Ignore version pinning", "Keep all resources in one file", "Frequent commits of tfstate file", "Use descriptive naming"],
+            "answer": "Use descriptive naming"
+        },
+        {
+            "question": "In which file are Terraform variable definitions typically stored?",
+            "options": ["config.tf", "var.tf", "vars.tf", "settings.tf"],
+            "answer": "vars.tf"
+        },
+        {
+            "question": "What's the best practice for storing sensitive data in Terraform?",
+            "options": ["Commit to VCS", "Use environment variables", "Store in plain text", "Email to team members"],
+            "answer": "Use environment variables"
+        },
+        {
+            "question": "Which of the following would be considered an anti-pattern in Terraform?",
+            "options": ["Using modules", "Hardcoding credentials", "Version pinning", "Managing dependencies"],
+            "answer": "Hardcoding credentials"
+        },
+        {
+            "question": "In a Terraform configuration, how would you specify a required version of a provider?",
+            "options": ["Using the 'version' attribute", "Inside the provider block", "Inside the resource block", "Using the 'provider_version' attribute"],
+            "answer": "Inside the provider block"
+        },
+        {
+            "question": "When migrating state in Terraform, what's the primary tool or command you'd use?",
+            "options": ["terraform mv", "terraform migrate", "terraform transfer", "terraform move"],
+            "answer": "terraform mv"
+        },
+        {
+            "question": "What is the purpose of `terraform fmt` command?",
+            "options": ["To format Terraform configuration files", "To fix Terraform errors", "To fetch modules", "To force Terraform plan"],
+            "answer": "To format Terraform configuration files"
+        },
+        {
+            "question": "How can you store state remotely in Terraform?",
+            "options": ["Using remote backends", "Using 'terraform remote' command", "Committing to VCS", "Emailing the state file"],
+            "answer": "Using remote backends"
+        },
+        {
+            "question": "Which of the following is a Terraform best practice for module design?",
+            "options": ["Make modules do multiple things", "Hardcode configurations", "Make modules generic and reusable", "Avoid documentation"],
+            "answer": "Make modules generic and reusable"
+        },
+        {
+            "question": "When writing Terraform code for a team, what's a recommended practice?",
+            "options": ["Avoid comments", "Frequent forced pushes", "Code review and collaboration", "Keep all logic in main.tf"],
+            "answer": "Code review and collaboration"
+        },
+        {
+            "question": "In a typical Terraform workflow, which step comes after `terraform init`?",
+            "options": ["terraform destroy", "terraform validate", "terraform apply", "terraform plan"],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "Which command in Terraform checks the configuration for syntax errors?",
+            "options": ["terraform validate", "terraform check", "terraform verify", "terraform review"],
+            "answer": "terraform validate"
+        },
+        {
+            "question": "Which of the following is NOT a recommended strategy for managing Terraform versions?",
+            "options": ["Using the latest version always", "Pin to a specific version", "Test new versions before adopting", "Use version constraints in configurations"],
+            "answer": "Using the latest version always"
+        },
+        {
+            "question": "How can you avoid cyclic dependencies in Terraform?",
+            "options": ["Use global variables", "Avoid resource dependencies", "Use explicit resource references", "Use implicit resource references"],
+            "answer": "Use explicit resource references"
+        },
+        {
+            "question": "What's the purpose of the `terraform.lock.hcl` file introduced in Terraform 0.14 and later?",
+            "options": ["Lock file versions", "Lock state file", "Lock configuration files", "Lock provider versions"],
+            "answer": "Lock provider versions"
+        },
+        {
+            "question": "In Terraform, how can you output the computed value of an expression?",
+            "options": ["Using 'terraform compute'", "Using 'terraform echo'", "Using an 'output' block", "Using a 'return' block"],
+            "answer": "Using an 'output' block"
+        },
+        {
+            "question": "Which of these is NOT a valid migration strategy in Terraform?",
+            "options": ["State Rename", "Provider Overload", "Resource Refactoring", "Module Segregation"],
+            "answer": "Provider Overload"
+        },
+        {
+            "question": "What would you use to make a Terraform module accept inputs?",
+            "options": ["Resources", "Providers", "Inputs", "Variables"],
+            "answer": "Variables"
+        },
+        {
+            "question": "Which command is used to destroy resources managed by Terraform?",
+            "options": ["terraform delete", "terraform remove", "terraform destroy", "terraform obliterate"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "How can you safely manage secrets with Terraform?",
+            "options": ["Store in tfvars files", "Hardcode in main.tf", "Use secret management tools", "Embed in modules"],
+            "answer": "Use secret management tools"
+        },
+        {
+            "question": "In Terraform, which block type can you use to specify conditions under which a given set of configurations should be used?",
+            "options": ["resource", "module", "conditional", "locals"],
+            "answer": "locals"
+        },
+        {
+            "question": "Which command can be used to produce a machine-readable output format from various Terraform commands?",
+            "options": ["terraform parse", "terraform output-json", "terraform json", "terraform show -json"],
+            "answer": "terraform show -json"
+        },
+        {
+            "question": "In Terraform, what mechanism allows you to avoid applying certain changes immediately?",
+            "options": ["Resource skipping", "Apply filters", "Resource targeting", "Delayed execution"],
+            "answer": "Resource targeting"
+        },
+        {
+            "question": "Which of the following files is used by default by Terraform to define variable values?",
+            "options": ["terraform.tfvars", "vars.tf", "values.tfvars", "config.tfvars"],
+            "answer": "terraform.tfvars"
+        },
+        {
+            "question": "In the context of Terraform, what does 'Drift' refer to?",
+            "options": ["Resource moving between regions", "Changes not represented in the configuration", "Loss of state file", "Deprecated modules"],
+            "answer": "Changes not represented in the configuration"
+        },
+        {
+            "question": "Which of the following is NOT a Terraform best practice?",
+            "options": ["Centralized state management", "Loosely coupled architecture", "Frequent manual edits of the state file", "Consistent naming conventions"],
+            "answer": "Frequent manual edits of the state file"
+        },
+        {
+            "question": "What is a common best practice when dealing with multiple environments (like staging and production) in Terraform?",
+            "options": ["Use different state files", "Use the same state file", "Avoid using modules", "Use different providers"],
+            "answer": "Use different state files"
+        },
+        {
+            "question": "Which Terraform command can help in upgrading to the latest syntax for a given Terraform configuration?",
+            "options": ["terraform upgrade", "terraform update-syntax", "terraform 0.12upgrade", "terraform fix"],
+            "answer": "terraform 0.12upgrade"
+        },
+        {
+            "question": "When should you consider splitting your Terraform configurations into separate state files?",
+            "options": ["When they become larger than 100KB", "When working with multiple cloud providers", "When managing different lifecycle stages", "When using different versions of Terraform"],
+            "answer": "When managing different lifecycle stages"
+        },
+        {
+            "question": "Which of these is NOT a standard way to provide input values to Terraform?",
+            "options": ["From an API call", "From a file", "From the command line", "From environment variables"],
+            "answer": "From an API call"
+        }
+    ]
+}

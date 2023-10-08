@@ -1,0 +1,33 @@
+
+30 Topics Related to Terraform
+
+Introduction to Infrastructure as Code (IaC)
+Overview of Terraform
+HashiCorp Configuration Language (HCL) Basics
+Terraform CLI Basics
+Setup and Initialization
+Terraform Providers
+Terraform Resources and Data Sources
+Modules in Terraform
+Input and Output Variables
+Terraform State Management
+Remote Backends in Terraform
+Terraform Workspaces
+Dependency Management in Terraform
+Loops and Conditional Expressions
+Error Handling and Debugging
+Terraform Plan and Apply Workflow
+Terraform Destroy and Taint
+Locking in Terraform
+Terraform Import Command
+Using Terraform in Teams and Collaboration
+Terraform Cloud and Enterprise
+Securing Terraform Configurations
+Terraform and Policy as Code with Sentinel
+Terraform and Cost Management
+Continuous Integration and Deployment (CI/CD) with Terraform
+Advanced HCL Features
+Version Constraints in Terraform
+Terraform and Infrastructure Testing
+Migration Strategies in Terraform
+Best Practices and Patterns in Terraform

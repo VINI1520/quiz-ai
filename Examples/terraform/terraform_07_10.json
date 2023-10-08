@@ -1,0 +1,269 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the Terraform import command?",
+            "options": ["To create a new Terraform project", "To destroy existing resources", "To import existing infrastructure into Terraform state", "To generate Terraform configuration files"],
+            "answer": "To import existing infrastructure into Terraform state"
+        },
+        {
+            "question": "Which Terraform command is used to initialize a new Terraform project in a directory?",
+            "options": ["terraform start", "terraform init", "terraform new", "terraform create"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "In Terraform, what is a workspace used for?",
+            "options": ["Creating a new AWS VPC", "Storing Terraform state files", "Managing multiple sets of infrastructure", "Defining variables for a module"],
+            "answer": "Managing multiple sets of infrastructure"
+        },
+        {
+            "question": "What does 'Terraform Cloud' provide as a service?",
+            "options": ["Infrastructure as Code (IaC) consulting", "A managed platform for Terraform runs and collaboration", "Virtual private cloud services", "Database as a Service (DBaaS)"],
+            "answer": "A managed platform for Terraform runs and collaboration"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows teams to collaborate on infrastructure configurations?",
+            "options": ["Remote state management", "Terraform modules", "Collaborative workspaces", "AWS Lambda functions"],
+            "answer": "Collaborative workspaces"
+        },
+        {
+            "question": "What is the primary benefit of using remote state management in Terraform?",
+            "options": ["Improved code organization", "Enhanced security", "Concurrent access to state files", "Reduced infrastructure cost"],
+            "answer": "Enhanced security"
+        },
+        {
+            "question": "What is the main difference between Terraform Cloud and Terraform Enterprise?",
+            "options": ["Terraform Cloud is free, while Terraform Enterprise is a paid product", "Terraform Enterprise is hosted in the cloud, while Terraform Cloud is on-premises", "Terraform Cloud is designed for small teams, while Terraform Enterprise is for large enterprises", "There is no difference; they are the same product under different names"],
+            "answer": "There is no difference; they are the same product under different names"
+        },
+        {
+            "question": "Which command is used to destroy resources managed by Terraform?",
+            "options": ["terraform delete", "terraform destroy", "terraform remove", "terraform obliterate"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the purpose of a Terraform provider?",
+            "options": ["To manage Terraform workspaces", "To provision and manage resources of a specific cloud or service", "To authenticate Terraform users", "To define input variables for a module"],
+            "answer": "To provision and manage resources of a specific cloud or service"
+        },
+        {
+            "question": "In Terraform, what is an output variable used for?",
+            "options": ["Storing sensitive data", "Passing data between modules", "Defining provider configurations", "Hiding resource dependencies"],
+            "answer": "Passing data between modules"
+        },
+        {
+            "question": "Which Terraform CLI command generates an execution plan?",
+            "options": ["terraform plan", "terraform apply", "terraform build", "terraform validate"],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "What does the 'terraform validate' command do?",
+            "options": ["Validates the syntax of Terraform configuration files", "Validates the Terraform Cloud workspace", "Validates user permissions in Terraform Enterprise", "Validates AWS security groups"],
+            "answer": "Validates the syntax of Terraform configuration files"
+        },
+        {
+            "question": "Which Terraform Cloud feature enables version control integration with services like GitHub?",
+            "options": ["Terraform Sentinel", "Collaborative workspaces", "Terraform Registry", "VCS (Version Control System) Integration"],
+            "answer": "VCS (Version Control System) Integration"
+        },
+        {
+            "question": "What is the purpose of Terraform Enterprise's Sentinel Policy as Code?",
+            "options": ["To manage infrastructure secrets", "To automate Terraform runs", "To enforce policy compliance in Terraform configurations", "To create custom Terraform providers"],
+            "answer": "To enforce policy compliance in Terraform configurations"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to store and share Terraform modules?",
+            "options": ["Terraform Module Store", "Terraform Marketplace", "Terraform Registry", "Terraform Exchange"],
+            "answer": "Terraform Registry"
+        },
+        {
+            "question": "What is the primary purpose of the 'terraform workspace' command?",
+            "options": ["To list available workspaces", "To create a new workspace", "To switch between workspaces", "To destroy a workspace"],
+            "answer": "To switch between workspaces"
+        },
+        {
+            "question": "What does 'Terraform Cloud Remote Execution' refer to?",
+            "options": ["Running Terraform commands from a remote server", "Executing Terraform plans on your local machine", "Using Terraform Cloud as a remote database", "Running Terraform on an offline, isolated network"],
+            "answer": "Running Terraform commands from a remote server"
+        },
+        {
+            "question": "Which Terraform Enterprise feature allows you to define custom variables for use in configurations?",
+            "options": ["Custom Modules", "Terraform Variables", "Variable Sets", "Environment Variables"],
+            "answer": "Variable Sets"
+        },
+        {
+            "question": "What is the purpose of Terraform's 'remote backends'?",
+            "options": ["To store sensitive data", "To share state files via email", "To enable remote state management", "To access remote Terraform documentation"],
+            "answer": "To enable remote state management"
+        },
+        {
+            "question": "What does 'Terraform State Locking' prevent?",
+            "options": ["Execution of Terraform plans", "Accidental deletion of resources", "Concurrent state file modifications", "Creation of Terraform modules"],
+            "answer": "Concurrent state file modifications"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to set access control policies for workspaces?",
+            "options": ["Terraform Policies", "Terraform Access Control", "Terraform ACLs (Access Control Lists)", "Terraform Permissions"],
+            "answer": "Terraform Policies"
+        },
+        {
+            "question": "In Terraform, what is a 'Terraform Configuration Language' (HCL) file?",
+            "options": ["A file used for storing SSH keys", "A file containing infrastructure code written in HCL", "A file for storing environment variables", "A file for managing Terraform workspaces"],
+            "answer": "A file containing infrastructure code written in HCL"
+        },
+        {
+            "question": "What is the recommended way to manage sensitive data, such as API keys, in Terraform?",
+            "options": ["Store them in plain text within the configuration files", "Use environment variables", "Include them directly in the Terraform state file", "Encrypt them with a public key"],
+            "answer": "Use environment variables"
+        },
+        {
+            "question": "Which Terraform Cloud feature provides a customizable dashboard for monitoring infrastructure?",
+            "options": ["Terraform Monitoring", "Terraform Insights", "Terraform Analytics", "Terraform Metrics"],
+            "answer": "Terraform Insights"
+        },
+        {
+            "question": "What is the main advantage of using Terraform Cloud's 'Sentinel' policy framework?",
+            "options": ["Automating infrastructure provisioning", "Enforcing compliance policies", "Managing environment variables", "Defining custom provider configurations"],
+            "answer": "Enforcing compliance policies"
+        },
+        {
+            "question": "Which command can you use to format your Terraform configuration files to follow a consistent style?",
+            "options": ["terraform style", "terraform format", "terraform tidy", "terraform beautify"],
+            "answer": "terraform fmt"
+        },
+        {
+            "question": "What is the purpose of the 'terraform graph' command?",
+            "options": ["To create a visual representation of the Terraform execution plan", "To generate ASCII art", "To list available workspaces", "To destroy all resources"],
+            "answer": "To create a visual representation of the Terraform execution plan"
+        },
+        {
+            "question": "What is the recommended way to handle Terraform state when working in a team?",
+            "options": ["Use a single, shared state file", "Store state files in a public GitHub repository", "Maintain separate state files for each team member", "Use remote state management"],
+            "answer": "Use remote state management"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to create and share reusable infrastructure components?",
+            "options": ["Terraform Registry", "Terraform Modules", "Terraform Workspaces", "Terraform Policies"],
+            "answer": "Terraform Modules"
+        },
+        {
+            "question": "What is the purpose of 'Terraform Sentinel Mocks'?",
+            "options": ["To simulate Terraform runs", "To create fake Terraform modules", "To test Sentinel policies", "To generate Terraform documentation"],
+            "answer": "To test Sentinel policies"
+        },
+        {
+            "question": "What does 'Terraform Data Sources' allow you to do?",
+            "options": ["Retrieve information from external sources and use it in Terraform configurations", "Store sensitive data in Terraform state", "Create custom Terraform providers", "Manage user access control in Terraform Cloud"],
+            "answer": "Retrieve information from external sources and use it in Terraform configurations"
+        },
+        {
+            "question": "Which Terraform Enterprise feature provides a detailed audit trail of all actions and changes made in the system?",
+            "options": ["Terraform Audit Log", "Terraform Change History", "Terraform Activity Tracker", "Terraform Event Monitor"],
+            "answer": "Terraform Audit Log"
+        },
+        {
+            "question": "What is the purpose of the 'terraform force-unlock' command?",
+            "options": ["To forcefully delete all Terraform resources", "To unlock a locked Terraform state", "To destroy a workspace", "To forcibly terminate a Terraform run"],
+            "answer": "To unlock a locked Terraform state"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to define and enforce infrastructure provisioning policies?",
+            "options": ["Terraform Sentinel", "Terraform Policies", "Terraform Governance", "Terraform Compliance"],
+            "answer": "Terraform Sentinel"
+        },
+        {
+            "question": "What is 'Terraform Apply Automation' in Terraform Enterprise?",
+            "options": ["A feature for automatic code formatting", "A process for applying Terraform configurations", "An integration with Jenkins for CI/CD", "A tool for managing Terraform Cloud workspaces"],
+            "answer": "A process for applying Terraform configurations"
+        },
+        {
+            "question": "What is the primary benefit of using 'Terraform Cloud Cost Estimation'?",
+            "options": ["It provides real-time cost tracking of cloud resources", "It automates the billing process", "It offers free cloud credits", "It improves Terraform performance"],
+            "answer": "It provides real-time cost tracking of cloud resources"
+        },
+        {
+            "question": "Which Terraform Enterprise feature allows you to define custom notification policies for workspace events?",
+            "options": ["Terraform Notifications", "Terraform Alerts", "Terraform Events", "Terraform Notifications"],
+            "answer": "Terraform Notifications"
+        },
+        {
+            "question": "What is the primary use case for 'Terraform Sentinel Policies'?",
+            "options": ["To configure remote backends", "To define output variables", "To enforce organization-specific policies", "To manage Terraform modules"],
+            "answer": "To enforce organization-specific policies"
+        },
+        {
+            "question": "What is the recommended way to store sensitive data in Terraform configurations?",
+            "options": ["Store them in plain text within the configuration files", "Use environment variables", "Store them in a separate, encrypted file", "Include them in comments for reference"],
+            "answer": "Store them in a separate, encrypted file"
+        },
+        {
+            "question": "Which Terraform Cloud feature provides a history of all Terraform runs, including their status and changes made?",
+            "options": ["Terraform History", "Terraform Run Log", "Terraform Execution History", "Terraform Run History"],
+            "answer": "Terraform Run Log"
+        },
+        {
+            "question": "What is the primary use case for 'Terraform Enterprise Workspaces'?",
+            "options": ["Creating isolated development environments", "Managing Terraform configuration files", "Providing a shared chat platform", "Collaborating on code reviews"],
+            "answer": "Creating isolated development environments"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to execute automated tests on your infrastructure code?",
+            "options": ["Terraform Validator", "Terraform Sentinel", "Terraform Tester", "Terraform Test Runner"],
+            "answer": "Terraform Validator"
+        },
+        {
+            "question": "What does the 'terraform refresh' command do?",
+            "options": ["Deletes all resources managed by Terraform", "Updates the state file to match the current infrastructure", "Generates a new Terraform plan", "Restarts the Terraform server"],
+            "answer": "Updates the state file to match the current infrastructure"
+        },
+        {
+            "question": "Which Terraform Enterprise feature allows you to define and enforce naming conventions for resources?",
+            "options": ["Terraform Resource Naming", "Terraform Resource Policies", "Terraform Naming Standards", "Terraform Resource Standards"],
+            "answer": "Terraform Resource Policies"
+        },
+        {
+            "question": "What is the purpose of 'Terraform Init Automation'?",
+            "options": ["To initialize Terraform workspaces", "To automate Terraform runs", "To configure remote backends", "To simplify Terraform installations"],
+            "answer": "To initialize Terraform workspaces"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to define custom approval workflows for infrastructure changes?",
+            "options": ["Terraform Workflows", "Terraform Approvals", "Terraform Work Items", "Terraform Workflow Designer"],
+            "answer": "Terraform Approvals"
+        },
+        {
+            "question": "What is the primary purpose of 'Terraform Enterprise Agents'?",
+            "options": ["To manage Terraform state files", "To automate backups of Terraform configurations", "To execute Terraform runs in isolated environments", "To create custom Terraform providers"],
+            "answer": "To execute Terraform runs in isolated environments"
+        },
+        {
+            "question": "What does the 'terraform force-unlock' command do?",
+            "options": ["To forcefully delete all Terraform resources", "To unlock a locked Terraform state", "To destroy a workspace", "To forcibly terminate a Terraform run"],
+            "answer": "To unlock a locked Terraform state"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to define and enforce infrastructure tagging policies?",
+            "options": ["Terraform Tags", "Terraform Labeling", "Terraform Resource Tags", "Terraform Resource Labels"],
+            "answer": "Terraform Resource Labels"
+        },
+        {
+            "question": "What is the primary use case for 'Terraform Cloud Workspaces'?",
+            "options": ["Storing Terraform configuration files", "Collaborating on code reviews", "Managing Terraform state files", "Creating isolated development environments"],
+            "answer": "Creating isolated development environments"
+        },
+        {
+            "question": "Which Terraform Cloud feature allows you to visualize and analyze the changes made to your infrastructure over time?",
+            "options": ["Terraform Timeline", "Terraform History", "Terraform Change Analyzer", "Terraform Change Tracking"],
+            "answer": "Terraform Change Analyzer"
+        },
+        {
+            "question": "What is the primary benefit of using 'Terraform Cloud Scalability'?",
+            "options": ["Reduced infrastructure cost", "Improved security", "Scalability for handling large Terraform workloads", "Faster Terraform plan generation"],
+            "answer": "Scalability for handling large Terraform workloads"
+        },
+        {
+            "question": "Which Terraform Enterprise feature allows you to define and enforce password policies for Terraform users?",
+            "options": ["Terraform Password Policies", "Terraform Access Control", "Terraform Security", "Terraform User Management"],
+            "answer": "Terraform Password Policies"
+        }
+    ]
+}

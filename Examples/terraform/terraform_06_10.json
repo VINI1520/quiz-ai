@@ -1,0 +1,524 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the 'terraform plan' command in Terraform?",
+            "options": [
+                "To create a new Terraform configuration file.",
+                "To apply changes to the infrastructure.",
+                "To generate an execution plan for changes.",
+                "To destroy all resources in the current state."
+            ],
+            "answer": "To generate an execution plan for changes."
+        },
+        {
+            "question": "What does the 'terraform apply' command do?",
+            "options": [
+                "It initializes a new Terraform project.",
+                "It destroys all resources in the current state.",
+                "It applies the changes described in the Terraform configuration.",
+                "It lists the locked resources in the state."
+            ],
+            "answer": "It applies the changes described in the Terraform configuration."
+        },
+        {
+            "question": "How can you force a resource to be recreated in Terraform?",
+            "options": [
+                "Using the 'terraform taint' command.",
+                "By manually deleting it from the state file.",
+                "There is no way to force resource recreation in Terraform.",
+                "By using the 'terraform destroy' command."
+            ],
+            "answer": "Using the 'terraform taint' command."
+        },
+        {
+            "question": "What is the purpose of the 'terraform destroy' command?",
+            "options": [
+                "To create a new Terraform configuration file.",
+                "To apply changes to the infrastructure.",
+                "To generate an execution plan for changes.",
+                "To destroy all resources in the current state."
+            ],
+            "answer": "To destroy all resources in the current state."
+        },
+        {
+            "question": "What does it mean to 'taint' a resource in Terraform?",
+            "options": [
+                "To mark it as immutable and unchangeable.",
+                "To tag it with a specific label.",
+                "To force a recreation of the resource during the next 'terraform apply'.",
+                "To encrypt the resource's data."
+            ],
+            "answer": "To force a recreation of the resource during the next 'terraform apply'."
+        },
+        {
+            "question": "How can you remove the 'taint' on a resource in Terraform?",
+            "options": [
+                "Using the 'terraform untaint' command.",
+                "By manually editing the Terraform configuration.",
+                "It's not possible to remove 'taint' once applied.",
+                "By using the 'terraform clean' command."
+            ],
+            "answer": "Using the 'terraform untaint' command."
+        },
+        {
+            "question": "What is the purpose of state locking in Terraform?",
+            "options": [
+                "To prevent other users from viewing the Terraform state.",
+                "To secure sensitive data in the Terraform state.",
+                "To prevent concurrent modifications to the Terraform state by multiple users.",
+                "To make the Terraform state read-only."
+            ],
+            "answer": "To prevent concurrent modifications to the Terraform state by multiple users."
+        },
+        {
+            "question": "Which backend types in Terraform support state locking?",
+            "options": [
+                "Local",
+                "S3",
+                "Consul",
+                "File"
+            ],
+            "answer": "S3"
+        },
+        {
+            "question": "What happens if two users attempt to modify the Terraform state concurrently without locking?",
+            "options": [
+                "The second user's changes will be discarded.",
+                "The changes will be merged automatically.",
+                "Terraform will raise an error and prevent concurrent changes.",
+                "It is not possible to modify the state concurrently without locking."
+            ],
+            "answer": "The changes will be merged automatically."
+        },
+        {
+            "question": "Which command is used to manually lock the Terraform state for a specific operation?",
+            "options": [
+                "terraform lock",
+                "terraform apply",
+                "terraform state lock",
+                "terraform lock-state"
+            ],
+            "answer": "terraform state lock"
+        },
+        {
+            "question": "What is a 'lock ID' in Terraform state locking?",
+            "options": [
+                "A unique identifier for a Terraform configuration.",
+                "A randomly generated password.",
+                "A string used to identify a lock.",
+                "A username and password combination."
+            ],
+            "answer": "A string used to identify a lock."
+        },
+        {
+            "question": "How can you release a lock on the Terraform state?",
+            "options": [
+                "By using the 'terraform unlock' command.",
+                "By deleting the state file.",
+                "Locks are automatically released after a specified timeout.",
+                "You cannot release a lock once acquired."
+            ],
+            "answer": "By using the 'terraform unlock' command."
+        },
+        {
+            "question": "What is the purpose of a 'lock timeout' in Terraform state locking?",
+            "options": [
+                "To determine how long the Terraform state will remain locked.",
+                "To set a time limit for applying changes to the infrastructure.",
+                "To control the access permissions of Terraform users.",
+                "To encrypt the Terraform state."
+            ],
+            "answer": "To determine how long the Terraform state will remain locked."
+        },
+        {
+            "question": "Which of the following statements about 'terraform init' is true?",
+            "options": [
+                "It applies changes to the infrastructure.",
+                "It generates an execution plan for changes.",
+                "It initializes a new Terraform project and downloads providers.",
+                "It destroys all resources in the current state."
+            ],
+            "answer": "It initializes a new Terraform project and downloads providers."
+        },
+        {
+            "question": "What is a 'remote backend' in Terraform?",
+            "options": [
+                "A backend that stores the state locally on the user's machine.",
+                "A backend that stores the state on a remote server.",
+                "A type of resource in Terraform configurations.",
+                "A type of locking mechanism."
+            ],
+            "answer": "A backend that stores the state on a remote server."
+        },
+        {
+            "question": "Which command can be used to view the current Terraform state?",
+            "options": [
+                "terraform show",
+                "terraform list",
+                "terraform state view",
+                "terraform status"
+            ],
+            "answer": "terraform show"
+        },
+        {
+            "question": "In Terraform, what is a 'resource lock'?",
+            "options": [
+                "A lock applied to the entire Terraform state.",
+                "A lock applied to a specific resource in the Terraform state.",
+                "A lock that prevents 'terraform apply' from running.",
+                "A lock used to secure provider credentials."
+            ],
+            "answer": "A lock applied to a specific resource in the Terraform state."
+        },
+        {
+            "question": "What is the purpose of 'state snapshots' in Terraform?",
+            "options": [
+                "To take a picture of the current infrastructure.",
+                "To create a backup of the Terraform state.",
+                "To store previous versions of the Terraform state.",
+                "To share the state with other users."
+            ],
+            "answer": "To store previous versions of the Terraform state."
+        },
+        {
+            "question": "Which command is used to force unlock the Terraform state if the lock is stuck?",
+            "options": [
+                "terraform unlock-force",
+                "terraform state unlock",
+                "terraform force-unlock",
+                "terraform release-lock"
+            ],
+            "answer": "terraform force-unlock"
+        },
+        {
+            "question": "What is a 'lock table' in Terraform?",
+            "options": [
+                "A table that displays information about locked resources.",
+                "A table that stores user authentication data.",
+                "A table used to list provider plugins.",
+                "A table that shows available backends."
+            ],
+            "answer": "A table that displays information about locked resources."
+        },
+        {
+            "question": "Which command can be used to manually acquire a lock on the Terraform state?",
+            "options": [
+                "terraform get-lock",
+                "terraform lock",
+                "terraform state lock",
+                "terraform acquire-lock"
+            ],
+            "answer": "terraform state lock"
+        },
+        {
+            "question": "What is the purpose of the 'terraform refresh' command?",
+            "options": [
+                "To refresh the Terraform documentation.",
+                "To refresh the state of the infrastructure without making any changes.",
+                "To apply changes to the infrastructure.",
+                "To destroy all resources in the current state."
+            ],
+            "answer": "To refresh the state of the infrastructure without making any changes."
+        },
+        {
+            "question": "Which command is used to manually release a lock on the Terraform state?",
+            "options": [
+                "terraform unlock",
+                "terraform release-lock",
+                "terraform state unlock",
+                "terraform release-state-lock"
+            ],
+            "answer": "terraform unlock"
+        },
+        {
+            "question": "What is the purpose of the 'terraform state mv' command?",
+            "options": [
+                "To move the Terraform state to a different location.",
+                "To move a resource instance within the Terraform state.",
+                "To create a new Terraform state.",
+                "To rename a Terraform configuration file."
+            ],
+            "answer": "To move a resource instance within the Terraform state."
+        },
+        {
+            "question": "Which command is used to show the execution plan without applying any changes?",
+            "options": [
+                "terraform apply",
+                "terraform plan",
+                "terraform show",
+                "terraform preview"
+            ],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "What is the purpose of the 'terraform state list' command?",
+            "options": [
+                "To list all available Terraform providers.",
+                "To list the locked resources in the Terraform state.",
+                "To list the resources managed by a Terraform configuration.",
+                "To list the available backend types."
+            ],
+            "answer": "To list the resources managed by a Terraform configuration."
+        },
+        {
+            "question": "Which command is used to manually release all locks on the Terraform state?",
+            "options": [
+                "terraform unlock-all",
+                "terraform release-all-locks",
+                "terraform state unlock-all",
+                "terraform release-all-state-locks"
+            ],
+            "answer": "terraform unlock-all"
+        },
+        {
+            "question": "What happens when a Terraform state lock times out?",
+            "options": [
+                "The lock is released automatically.",
+                "The lock becomes permanent and cannot be removed.",
+                "Terraform raises an error and prevents further operations.",
+                "The state becomes read-only."
+            ],
+            "answer": "The lock is released automatically."
+        },
+        {
+            "question": "Which command is used to create a new Terraform configuration file?",
+            "options": [
+                "terraform new",
+                "terraform init",
+                "terraform create",
+                "terraform generate"
+            ],
+            "answer": "terraform new"
+        },
+        {
+            "question": "What is a 'backend configuration' in Terraform?",
+            "options": [
+                "A configuration file that specifies the resources to be created.",
+                "A configuration file that defines provider settings.",
+                "A configuration file that stores the Terraform state.",
+                "A configuration file that locks the state."
+            ],
+            "answer": "A configuration file that defines provider settings."
+        },
+        {
+            "question": "What is a 'lock message' in Terraform state locking?",
+            "options": [
+                "A message displayed when the lock is acquired.",
+                "A message displayed when the lock is released.",
+                "A message sent to the Terraform CLI.",
+                "A message that prevents unlocking."
+            ],
+            "answer": "A message displayed when the lock is acquired."
+        },
+        {
+            "question": "What is the purpose of 'backend initialization' in Terraform?",
+            "options": [
+                "To create a new Terraform project.",
+                "To initialize a remote backend for storing state.",
+                "To destroy all resources in the current state.",
+                "To generate an execution plan for changes."
+            ],
+            "answer": "To initialize a remote backend for storing state."
+        },
+        {
+            "question": "What is a 'lock operation' in Terraform state locking?",
+            "options": [
+                "An operation that applies changes to the infrastructure.",
+                "An operation that secures provider credentials.",
+                "An operation that acquires or releases a lock.",
+                "An operation that generates a plan."
+            ],
+            "answer": "An operation that acquires or releases a lock."
+        },
+        {
+            "question": "Which command is used to manually release all locks on the Terraform state?",
+            "options": [
+                "terraform release-locks",
+                "terraform unlock-all",
+                "terraform state unlock-all",
+                "terraform release-all-locks"
+            ],
+            "answer": "terraform release-locks"
+        },
+        {
+            "question": "What is the purpose of 'state file migration' in Terraform?",
+            "options": [
+                "To rename the Terraform state file.",
+                "To migrate the Terraform state to a different backend.",
+                "To convert the Terraform state to a different format.",
+                "To delete the Terraform state."
+            ],
+            "answer": "To migrate the Terraform state to a different backend."
+        },
+        {
+            "question": "Which command is used to manually release a lock on the Terraform state for a specific operation?",
+            "options": [
+                "terraform unlock-force",
+                "terraform state unlock",
+                "terraform force-unlock",
+                "terraform release-lock"
+            ],
+            "answer": "terraform force-unlock"
+        },
+        {
+            "question": "What is the purpose of the 'terraform state pull' command?",
+            "options": [
+                "To push the Terraform state to a remote server.",
+                "To retrieve and show the Terraform state in JSON format.",
+                "To remove a resource from the Terraform state.",
+                "To force a resource to be recreated."
+            ],
+            "answer": "To retrieve and show the Terraform state in JSON format."
+        },
+        {
+            "question": "Which command is used to manually acquire a lock on the Terraform state for a specific operation?",
+            "options": [
+                "terraform acquire-lock",
+                "terraform lock",
+                "terraform state lock",
+                "terraform lock-state"
+            ],
+            "answer": "terraform state lock"
+        },
+        {
+            "question": "What is the purpose of 'partial state locking' in Terraform?",
+            "options": [
+                "To lock only specific resources within the Terraform state.",
+                "To lock the entire Terraform state.",
+                "To lock the state for a limited time.",
+                "To lock the state during initialization."
+            ],
+            "answer": "To lock only specific resources within the Terraform state."
+        },
+        {
+            "question": "Which command is used to manually release a lock on a specific resource in the Terraform state?",
+            "options": [
+                "terraform unlock-resource",
+                "terraform release-resource-lock",
+                "terraform state unlock-resource",
+                "terraform resource-unlock"
+            ],
+            "answer": "terraform state unlock-resource"
+        },
+        {
+            "question": "What is a 'lock holder' in Terraform state locking?",
+            "options": [
+                "A user or process that currently holds a lock on the state.",
+                "A resource that is locked within the state.",
+                "A message displayed when the lock is acquired.",
+                "A file used to store lock information."
+            ],
+            "answer": "A user or process that currently holds a lock on the state."
+        },
+        {
+            "question": "Which command is used to list all the locks on the Terraform state?",
+            "options": [
+                "terraform list-locks",
+                "terraform show-locks",
+                "terraform state list-locks",
+                "terraform locks-list"
+            ],
+            "answer": "terraform show-locks"
+        },
+        {
+            "question": "What is the purpose of 'state backup' in Terraform?",
+            "options": [
+                "To create a backup of the Terraform configuration.",
+                "To back up the Terraform state to a remote server.",
+                "To back up the Terraform state before applying changes.",
+                "To back up the provider credentials."
+            ],
+            "answer": "To back up the Terraform state before applying changes."
+        },
+        {
+            "question": "Which command is used to manually release all locks on a specific resource in the Terraform state?",
+            "options": [
+                "terraform release-resource-locks",
+                "terraform unlock-resource-all",
+                "terraform state release-locks",
+                "terraform resource-unlock-all"
+            ],
+            "answer": "terraform release-resource-locks"
+        },
+        {
+            "question": "What is the purpose of 'locking metadata' in Terraform state locking?",
+            "options": [
+                "To store additional information about locked resources.",
+                "To encrypt the Terraform state.",
+                "To control access permissions.",
+                "To define provider settings."
+            ],
+            "answer": "To store additional information about locked resources."
+        },
+        {
+            "question": "Which command is used to manually acquire a lock on a specific resource in the Terraform state?",
+            "options": [
+                "terraform lock-resource",
+                "terraform acquire-resource-lock",
+                "terraform state lock-resource",
+                "terraform resource-lock"
+            ],
+            "answer": "terraform state lock-resource"
+        },
+        {
+            "question": "What is a 'lock timeout' in Terraform state locking?",
+            "options": [
+                "The time it takes to acquire a lock.",
+                "The time it takes to release a lock.",
+                "The maximum time a lock can be held before it is automatically released.",
+                "The timeout for running 'terraform apply'."
+            ],
+            "answer": "The maximum time a lock can be held before it is automatically released."
+        },
+        {
+            "question": "Which command is used to manually release all locks on a specific resource in the Terraform state?",
+            "options": [
+                "terraform release-resource-locks",
+                "terraform unlock-resource-all",
+                "terraform state release-resource-locks",
+                "terraform resource-unlock-all"
+            ],
+            "answer": "terraform release-resource-locks"
+        },
+        {
+            "question": "What is the purpose of 'state file encryption' in Terraform?",
+            "options": [
+                "To encrypt the Terraform configuration files.",
+                "To encrypt the provider credentials.",
+                "To encrypt the Terraform state to secure sensitive data.",
+                "To encrypt the lock messages."
+            ],
+            "answer": "To encrypt the Terraform state to secure sensitive data."
+        },
+        {
+            "question": "Which command is used to manually acquire a lock on all resources in the Terraform state?",
+            "options": [
+                "terraform lock-all",
+                "terraform acquire-all-locks",
+                "terraform state lock-all",
+                "terraform all-resource-lock"
+            ],
+            "answer": "terraform state lock-all"
+        },
+        {
+            "question": "What is the purpose of 'lock owner' in Terraform state locking?",
+            "options": [
+                "To identify the resource being locked.",
+                "To identify the user or process holding the lock.",
+                "To define access permissions for a resource.",
+                "To store locking metadata."
+            ],
+            "answer": "To identify the user or process holding the lock."
+        },
+        {
+            "question": "Which command is used to manually release all locks on all resources in the Terraform state?",
+            "options": [
+                "terraform release-all-locks",
+                "terraform unlock-all-resources",
+                "terraform state release-all-locks",
+                "terraform resource-unlock-all"
+            ],
+            "answer": "terraform release-all-locks"
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of Terraform State?",
+            "options": ["To store sensitive data", "To track resource dependencies", "To generate documentation", "To define IAM policies"],
+            "answer": "To track resource dependencies"
+        },
+        {
+            "question": "Which language is used to write Sentinel policies for Terraform?",
+            "options": ["Python", "JavaScript", "HCL", "Go"],
+            "answer": "HCL"
+        },
+        {
+            "question": "What is 'Terraform Cloud' primarily used for?",
+            "options": ["Cost management", "Running Terraform locally", "Collaborative infrastructure as code", "Data analysis"],
+            "answer": "Collaborative infrastructure as code"
+        },
+        {
+            "question": "Which authentication method is commonly used to secure Terraform configurations?",
+            "options": ["Basic Auth", "OAuth", "JWT Tokens", "API Keys"],
+            "answer": "API Keys"
+        },
+        {
+            "question": "What is the role of 'Sentinel' in Terraform?",
+            "options": ["To create resource instances", "To manage DNS records", "To enforce policy as code", "To generate SSH keys"],
+            "answer": "To enforce policy as code"
+        },
+        {
+            "question": "Which Terraform command is used to initialize a working directory?",
+            "options": ["terraform start", "terraform setup", "terraform init", "terraform create"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "What does 'IAM' stand for in the context of AWS security?",
+            "options": ["Infrastructure Access Manager", "Identity and Access Management", "Internet Access Method", "Internal Authorization Model"],
+            "answer": "Identity and Access Management"
+        },
+        {
+            "question": "Which tool can be used for scanning Terraform configurations for security vulnerabilities?",
+            "options": ["TerraGuard", "Sentinel", "AWS Inspector", "Travis CI"],
+            "answer": "TerraGuard"
+        },
+        {
+            "question": "What is the primary use of 'Terrascan'?",
+            "options": ["Cost optimization", "Policy enforcement", "Infrastructure deployment", "Data analysis"],
+            "answer": "Policy enforcement"
+        },
+        {
+            "question": "In Terraform, what is a 'provider'?",
+            "options": ["A type of resource", "A Terraform module", "A cloud service API", "A variable"],
+            "answer": "A cloud service API"
+        },
+        {
+            "question": "Which type of resource in Terraform can be used to define IAM policies?",
+            "options": ["aws_security_group", "aws_iam_policy", "aws_instance", "aws_rds_instance"],
+            "answer": "aws_iam_policy"
+        },
+        {
+            "question": "What does 'HCL' stand for in the context of Terraform?",
+            "options": ["HashiCorp Configuration Language", "High-Level Code Language", "Hybrid Configuration Layer", "Hosted Cloud Language"],
+            "answer": "HashiCorp Configuration Language"
+        },
+        {
+            "question": "What is 'TFSec' used for in Terraform?",
+            "options": ["Continuous integration", "Static code analysis", "Load testing", "Secret management"],
+            "answer": "Static code analysis"
+        },
+        {
+            "question": "What is 'remote state' in Terraform?",
+            "options": ["A type of resource", "A network protocol", "A version control system", "A mechanism to store Terraform state data remotely"],
+            "answer": "A mechanism to store Terraform state data remotely"
+        },
+        {
+            "question": "Which cloud provider offers 'AWS Organizations' for cost management and security?",
+            "options": ["Microsoft Azure", "Google Cloud Platform", "Amazon Web Services", "IBM Cloud"],
+            "answer": "Amazon Web Services"
+        },
+        {
+            "question": "What is the 'Shared Responsibility Model' in cloud security?",
+            "options": ["A Terraform feature", "A security certification", "A security framework", "A cloud pricing model"],
+            "answer": "A security framework"
+        },
+        {
+            "question": "Which tool can be used for automated Terraform deployments and cost optimization?",
+            "options": ["Terraform Cloud", "Sentinel", "Terrascan", "HCL"],
+            "answer": "Terraform Cloud"
+        },
+        {
+            "question": "What is the primary purpose of 'Terraform Enterprise'?",
+            "options": ["Running Terraform locally", "Collaborative infrastructure as code", "Analyzing log data", "Creating AI models"],
+            "answer": "Collaborative infrastructure as code"
+        },
+        {
+            "question": "In Terraform, what is the role of 'variables'?",
+            "options": ["To store sensitive data", "To define inputs for configurations", "To manage DNS records", "To enforce policy as code"],
+            "answer": "To define inputs for configurations"
+        },
+        {
+            "question": "Which command is used to apply Terraform configurations and create or update resources?",
+            "options": ["terraform plan", "terraform deploy", "terraform apply", "terraform execute"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "What is the primary purpose of 'Cost Explorer' in AWS?",
+            "options": ["To create IAM policies", "To optimize code", "To analyze cost and usage data", "To deploy containers"],
+            "answer": "To analyze cost and usage data"
+        },
+        {
+            "question": "Which tool can be used to visualize Terraform configurations and their dependencies?",
+            "options": ["Terraform Graph", "Sentinel Visualizer", "Terrascan", "HCL Viewer"],
+            "answer": "Terraform Graph"
+        },
+        {
+            "question": "What is 'Infrastructure as Code' (IAC) in the context of Terraform?",
+            "options": ["A programming language", "A coding competition", "A best practice for infrastructure management", "A hardware specification"],
+            "answer": "A best practice for infrastructure management"
+        },
+        {
+            "question": "Which AWS service provides real-time monitoring and security alerts?",
+            "options": ["Amazon Inspector", "Amazon RDS", "Amazon S3", "Amazon Lambda"],
+            "answer": "Amazon Inspector"
+        },
+        {
+            "question": "What does 'DRY' stand for in software development, and why is it important in Terraform?",
+            "options": ["Do Repeat Yourself, to reduce redundancy", "Designate Resources Yonder, to optimize deployment", "Deploy Resources Yearly, to save costs", "Distribute Resources Yearly, to ensure security"],
+            "answer": "Do Repeat Yourself, to reduce redundancy"
+        },
+        {
+            "question": "Which AWS service can be used to track and manage costs in a multi-account AWS environment?",
+            "options": ["Amazon RDS", "AWS Budgets", "Amazon CloudWatch", "AWS Lambda"],
+            "answer": "AWS Budgets"
+        },
+        {
+            "question": "What is 'role-based access control' (RBAC) in the context of security policies?",
+            "options": ["A type of IAM policy", "A cloud provider", "A security vulnerability", "A method of restricting system access"],
+            "answer": "A method of restricting system access"
+        },
+        {
+            "question": "Which language is commonly used to write AWS Lambda functions for policy enforcement?",
+            "options": ["Python", "Ruby", "Java", "Swift"],
+            "answer": "Python"
+        },
+        {
+            "question": "What is the 'AWS Well-Architected Framework'?",
+            "options": ["A Terraform feature", "A security certification", "A set of best practices for building secure and efficient infrastructure", "A cloud pricing model"],
+            "answer": "A set of best practices for building secure and efficient infrastructure"
+        },
+        {
+            "question": "Which AWS service can be used to scan infrastructure configurations for vulnerabilities and compliance issues?",
+            "options": ["AWS Inspector", "AWS Lambda", "AWS S3", "AWS RDS"],
+            "answer": "AWS Inspector"
+        },
+        {
+            "question": "What is the purpose of 'Terraform Backends'?",
+            "options": ["To store sensitive data", "To manage DNS records", "To store Terraform state remotely", "To enforce policy as code"],
+            "answer": "To store Terraform state remotely"
+        },
+        {
+            "question": "Which AWS service provides automated cost optimization recommendations?",
+            "options": ["Amazon RDS", "Amazon S3", "AWS Trusted Advisor", "AWS Kinesis"],
+            "answer": "AWS Trusted Advisor"
+        },
+        {
+            "question": "What does 'CSPM' stand for in cloud security?",
+            "options": ["Cloud Security Policy Management", "Centralized Security Protocol Management", "Cost Savings and Performance Monitoring", "Customer Support and Performance Management"],
+            "answer": "Cloud Security Policy Management"
+        },
+        {
+            "question": "Which Terraform command is used to generate an execution plan?",
+            "options": ["terraform generate", "terraform plan", "terraform apply", "terraform visualize"],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "What is the primary purpose of 'Terraform Cloud Workspaces'?",
+            "options": ["Running Terraform locally", "Collaborative infrastructure as code", "Analyzing log data", "Creating AI models"],
+            "answer": "Collaborative infrastructure as code"
+        },
+        {
+            "question": "Which AWS service provides anomaly detection for security and compliance monitoring?",
+            "options": ["Amazon EC2", "Amazon GuardDuty", "Amazon Route 53", "Amazon SNS"],
+            "answer": "Amazon GuardDuty"
+        },
+        {
+            "question": "What is the role of 'Terraform Modules'?",
+            "options": ["To manage DNS records", "To enforce policy as code", "To define reusable components", "To create IAM policies"],
+            "answer": "To define reusable components"
+        },
+        {
+            "question": "Which AWS service provides centralized policy management for AWS accounts?",
+            "options": ["Amazon EC2", "Amazon GuardDuty", "AWS Organizations", "Amazon VPC"],
+            "answer": "AWS Organizations"
+        },
+        {
+            "question": "What is 'Immutable Infrastructure' in the context of Terraform?",
+            "options": ["Infrastructure that cannot be changed", "Infrastructure that is always online", "Infrastructure that is deployed using AWS Lambda", "Infrastructure that is created manually"],
+            "answer": "Infrastructure that cannot be changed"
+        },
+        {
+            "question": "Which Terraform command is used to destroy resources defined in Terraform configurations?",
+            "options": ["terraform stop", "terraform delete", "terraform destroy", "terraform cleanup"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the primary purpose of 'AWS Config'?",
+            "options": ["Infrastructure deployment", "Policy enforcement", "Configuration management and compliance monitoring", "Load testing"],
+            "answer": "Configuration management and compliance monitoring"
+        },
+        {
+            "question": "Which AWS service provides detailed billing and usage reports?",
+            "options": ["Amazon S3", "Amazon Glacier", "Amazon Redshift", "AWS Cost Explorer"],
+            "answer": "AWS Cost Explorer"
+        },
+        {
+            "question": "What is 'Terraform Enterprise Sentinel Policies' used for?",
+            "options": ["Continuous integration", "Static code analysis", "Load testing", "Secret management"],
+            "answer": "Static code analysis"
+        },
+        {
+            "question": "Which Terraform command is used to refresh the state of remote objects?",
+            "options": ["terraform update", "terraform fetch", "terraform refresh", "terraform sync"],
+            "answer": "terraform refresh"
+        },
+        {
+            "question": "What is the primary purpose of 'AWS Inspector'?",
+            "options": ["Continuous integration", "Static code analysis", "Vulnerability assessment and security compliance", "Secret management"],
+            "answer": "Vulnerability assessment and security compliance"
+        },
+        {
+            "question": "Which AWS service provides real-time monitoring and security alerts for AWS resources?",
+            "options": ["Amazon Inspector", "Amazon RDS", "Amazon S3", "Amazon CloudFront"],
+            "answer": "Amazon Inspector"
+        },
+        {
+            "question": "What is the role of 'Terraform Workspaces'?",
+            "options": ["To manage DNS records", "To enforce policy as code", "To define reusable components", "To create separate environments for Terraform configurations"],
+            "answer": "To create separate environments for Terraform configurations"
+        },
+        {
+            "question": "Which AWS service is designed to prevent data breaches by continuously monitoring and protecting data at rest?",
+            "options": ["Amazon S3", "AWS Config", "Amazon GuardDuty", "Amazon Macie"],
+            "answer": "Amazon Macie"
+        },
+        {
+            "question": "What is 'Infrastructure as Code' (IAC) in the context of Terraform?",
+            "options": ["A programming language", "A coding competition", "A best practice for infrastructure management", "A hardware specification"],
+            "answer": "A best practice for infrastructure management"
+        },
+        {
+            "question": "Which AWS service can be used to track and manage costs in a multi-account AWS environment?",
+            "options": ["Amazon RDS", "AWS Budgets", "Amazon CloudWatch", "AWS Lambda"],
+            "answer": "AWS Budgets"
+        },
+        {
+            "question": "What is 'role-based access control' (RBAC) in the context of security policies?",
+            "options": ["A type of IAM policy", "A cloud provider", "A security vulnerability", "A method of restricting system access"],
+            "answer": "A method of restricting system access"
+        },
+        {
+            "question": "Which language is commonly used to write AWS Lambda functions for policy enforcement?",
+            "options": ["Python", "Ruby", "Java", "Swift"],
+            "answer": "Python"
+        },
+        {
+            "question": "What is the 'AWS Well-Architected Framework'?",
+            "options": ["A Terraform feature", "A security certification", "A set of best practices for building secure and efficient infrastructure", "A cloud pricing model"],
+            "answer": "A set of best practices for building secure and efficient infrastructure"
+        },
+        {
+            "question": "Which AWS service can be used to scan infrastructure configurations for vulnerabilities and compliance issues?",
+            "options": ["AWS Inspector", "AWS Lambda", "AWS S3", "AWS RDS"],
+            "answer": "AWS Inspector"
+        },
+        {
+            "question": "What is the purpose of 'Terraform Backends'?",
+            "options": ["To store sensitive data", "To manage DNS records", "To store Terraform state remotely", "To enforce policy as code"],
+            "answer": "To store Terraform state remotely"
+        },
+        {
+            "question": "Which AWS service provides automated cost optimization recommendations?",
+            "options": ["Amazon RDS", "Amazon S3", "AWS Trusted Advisor", "AWS Kinesis"],
+            "answer": "AWS Trusted Advisor"
+        },
+        {
+            "question": "What does 'CSPM' stand for in cloud security?",
+            "options": ["Cloud Security Policy Management", "Centralized Security Protocol Management", "Cost Savings and Performance Monitoring", "Customer Support and Performance Management"],
+            "answer": "Cloud Security Policy Management"
+        },
+        {
+            "question": "Which Terraform command is used to generate an execution plan?",
+            "options": ["terraform generate", "terraform plan", "terraform apply", "terraform visualize"],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "What is the primary purpose of 'Terraform Cloud Workspaces'?",
+            "options": ["Running Terraform locally", "Collaborative infrastructure as code", "Analyzing log data", "Creating AI models"],
+            "answer": "Collaborative infrastructure as code"
+        },
+        {
+            "question": "Which AWS service provides anomaly detection for security and compliance monitoring?",
+            "options": ["Amazon EC2", "Amazon GuardDuty", "Amazon Route 53", "Amazon SNS"],
+            "answer": "Amazon GuardDuty"
+        },
+        {
+            "question": "What is the role of 'Terraform Modules'?",
+            "options": ["To manage DNS records", "To enforce policy as code", "To define reusable components", "To create IAM policies"],
+            "answer": "To define reusable components"
+        },
+        {
+            "question": "Which AWS service provides centralized policy management for AWS accounts?",
+            "options": ["Amazon EC2", "Amazon GuardDuty", "AWS Organizations", "Amazon VPC"],
+            "answer": "AWS Organizations"
+        },
+        {
+            "question": "What is 'Immutable Infrastructure' in the context of Terraform?",
+            "options": ["Infrastructure that cannot be changed", "Infrastructure that is always online", "Infrastructure that is deployed using AWS Lambda", "Infrastructure that is created manually"],
+            "answer": "Infrastructure that cannot be changed"
+        },
+        {
+            "question": "Which Terraform command is used to destroy resources defined in Terraform configurations?",
+            "options": ["terraform stop", "terraform delete", "terraform destroy", "terraform cleanup"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the primary purpose of 'AWS Config'?",
+            "options": ["Infrastructure deployment", "Policy enforcement", "Configuration management and compliance monitoring", "Load testing"],
+            "answer": "Configuration management and compliance monitoring"
+        },
+        {
+            "question": "Which AWS service provides detailed billing and usage reports?",
+            "options": ["Amazon S3", "Amazon Glacier", "Amazon Redshift", "AWS Cost Explorer"],
+            "answer": "AWS Cost Explorer"
+        },
+        {
+            "question": "What is 'Terraform Enterprise Sentinel Policies' used for?",
+            "options": ["Continuous integration", "Static code analysis", "Load testing", "Secret management"],
+            "answer": "Static code analysis"
+        },
+        {
+            "question": "Which Terraform command is used to refresh the state of remote objects?",
+            "options": ["terraform update", "terraform fetch", "terraform refresh", "terraform sync"],
+            "answer": "terraform refresh"
+        },
+        {
+            "question": "What is the primary purpose of 'AWS Inspector'?",
+            "options": ["Continuous integration", "Static code analysis", "Vulnerability assessment and security compliance", "Secret management"],
+            "answer": "Vulnerability assessment and security compliance"
+        },
+        {
+            "question": "Which AWS service provides real-time monitoring and security alerts for AWS resources?",
+            "options": ["Amazon Inspector", "Amazon RDS", "Amazon S3", "Amazon CloudFront"],
+            "answer": "Amazon Inspector"
+        },
+        {
+            "question": "What is the role of 'Terraform Workspaces'?",
+            "options": ["To manage DNS records", "To enforce policy as code", "To define reusable components", "To create separate environments for Terraform configurations"],
+            "answer": "To create separate environments for Terraform configurations"
+        },
+        {
+            "question": "Which AWS service is designed to prevent data breaches by continuously monitoring and protecting data at rest?",
+            "options": ["Amazon S3", "AWS Config", "Amazon GuardDuty", "Amazon Macie"],
+            "answer": "Amazon Macie"
+        }
+    ]
+}

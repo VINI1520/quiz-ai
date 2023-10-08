@@ -1,0 +1,254 @@
+{
+    "questions": [
+        {
+            "question": "What is a Terraform resource?",
+            "options": ["A reference to an external data source", "A reusable collection of configurations", "A managed infrastructure object like an AWS EC2 instance", "A Terraform module"],
+            "answer": "A managed infrastructure object like an AWS EC2 instance"
+        },
+        {
+            "question": "What is the purpose of a Terraform data source?",
+            "options": ["To store sensitive data securely", "To fetch information from an external system and make it available for use in Terraform", "To define input variables", "To create a new Terraform module"],
+            "answer": "To fetch information from an external system and make it available for use in Terraform"
+        },
+        {
+            "question": "Which block is used to declare a Terraform resource?",
+            "options": ["resource", "module", "data", "provider"],
+            "answer": "resource"
+        },
+        {
+            "question": "What is the 'count' argument used for in a Terraform resource block?",
+            "options": ["To specify the desired count of identical resources to be created", "To declare input variables", "To define the provider configuration", "To specify the required version of Terraform"],
+            "answer": "To specify the desired count of identical resources to be created"
+        },
+        {
+            "question": "What is the purpose of 'for_each' in a Terraform resource block?",
+            "options": ["To create a loop for resource creation based on a map or set", "To define resource dependencies", "To specify a resource's version", "To declare input variables"],
+            "answer": "To create a loop for resource creation based on a map or set"
+        },
+        {
+            "question": "What does the 'depends_on' argument do in a Terraform resource block?",
+            "options": ["It specifies the desired count of resources to be created", "It defines resource dependencies", "It specifies a resource's version", "It declares input variables"],
+            "answer": "It defines resource dependencies"
+        },
+        {
+            "question": "How are variables passed to Terraform modules?",
+            "options": ["Through environment variables", "As command-line arguments", "As part of the module block", "Through input variables"],
+            "answer": "Through input variables"
+        },
+        {
+            "question": "What is a Terraform module?",
+            "options": ["A managed infrastructure object like an AWS EC2 instance", "A reference to an external data source", "A reusable collection of configurations", "A Terraform provider"],
+            "answer": "A reusable collection of configurations"
+        },
+        {
+            "question": "What is the purpose of the 'source' argument in a Terraform module block?",
+            "options": ["To specify the required version of Terraform", "To define input variables", "To specify the source location of the module", "To declare output variables"],
+            "answer": "To specify the source location of the module"
+        },
+        {
+            "question": "How can you use the 'count' argument in a module block to create multiple instances of the same module?",
+            "options": ["By using a for loop", "By specifying multiple module blocks", "By defining a count variable in the module", "By using a data source"],
+            "answer": "By specifying multiple module blocks"
+        },
+        {
+            "question": "What is the purpose of 'output' blocks in a Terraform configuration?",
+            "options": ["To define input variables", "To specify the source location of a module", "To declare output values that can be used by other configurations", "To specify the required version of Terraform"],
+            "answer": "To declare output values that can be used by other configurations"
+        },
+        {
+            "question": "How can you reference an output value from a Terraform module in another configuration?",
+            "options": ["By using environment variables", "By using the 'input' block", "By specifying the output value as a variable", "By using the 'module' block and the output's name"],
+            "answer": "By using the 'module' block and the output's name"
+        },
+        {
+            "question": "What is the purpose of Terraform input variables?",
+            "options": ["To specify the source location of a module", "To define input values that can be customized when using a module", "To declare output values", "To define resource dependencies"],
+            "answer": "To define input values that can be customized when using a module"
+        },
+        {
+            "question": "How are input variables typically defined in a Terraform module?",
+            "options": ["As part of the 'resource' block", "In a separate 'input' block", "In the 'output' block", "As environment variables"],
+            "answer": "In a separate 'input' block"
+        },
+        {
+            "question": "What is the purpose of the 'default' argument in an input variable block?",
+            "options": ["To specify the required version of Terraform", "To define the default value for the variable if no value is provided", "To declare resource dependencies", "To specify the source location of a module"],
+            "answer": "To define the default value for the variable if no value is provided"
+        },
+        {
+            "question": "How can you specify the type of an input variable in Terraform?",
+            "options": ["By using the 'type' argument in the input variable block", "By using a 'resource_type' block", "By using the 'var_type' keyword", "By specifying the type in a comment"],
+            "answer": "By using the 'type' argument in the input variable block"
+        },
+        {
+            "question": "What is the purpose of Terraform output variables?",
+            "options": ["To define input values that can be customized when using a module", "To specify the source location of a module", "To declare output values that can be used by other configurations", "To define resource dependencies"],
+            "answer": "To declare output values that can be used by other configurations"
+        },
+        {
+            "question": "How are output variables typically defined in a Terraform module?",
+            "options": ["As part of the 'resource' block", "In a separate 'output' block", "In the 'input' block", "As environment variables"],
+            "answer": "In a separate 'output' block"
+        },
+        {
+            "question": "What is the purpose of the 'value' argument in an output variable block?",
+            "options": ["To specify the source location of a module", "To define the default value for the variable if no value is provided", "To declare output values that can be used by other configurations", "To define resource dependencies"],
+            "answer": "To declare output values that can be used by other configurations"
+        },
+        {
+            "question": "What is the primary benefit of using Terraform modules?",
+            "options": ["To declare input variables", "To define resource dependencies", "To reuse and share configurations across projects", "To specify the required version of Terraform"],
+            "answer": "To reuse and share configurations across projects"
+        },
+        {
+            "question": "Which command is used to create a new Terraform resource block in a configuration?",
+            "options": ["terraform create resource", "terraform new resource", "terraform init resource", "terraform apply resource"],
+            "answer": "terraform new resource"
+        },
+        {
+            "question": "Which command is used to create a new Terraform module block in a configuration?",
+            "options": ["terraform create module", "terraform new module", "terraform init module", "terraform apply module"],
+            "answer": "terraform new module"
+        },
+        {
+            "question": "How can you pass a variable value to a Terraform module?",
+            "options": ["Through environment variables", "As part of the module block", "By specifying it as an output variable", "By using the 'input' block in the module"],
+            "answer": "As part of the module block"
+        },
+        {
+            "question": "What is the purpose of the 'required' argument in an input variable block?",
+            "options": ["To specify the source location of a module", "To define the default value for the variable", "To declare resource dependencies", "To indicate that the variable must be provided a value"],
+            "answer": "To indicate that the variable must be provided a value"
+        },
+        {
+            "question": "How can you create multiple instances of the same resource in Terraform?",
+            "options": ["By using a for loop in the resource block", "By specifying multiple resource blocks with the same name", "By using a data source", "By using a module"],
+            "answer": "By using a for loop in the resource block"
+        },
+        {
+            "question": "What is the purpose of the 'source' argument in a Terraform data source block?",
+            "options": ["To specify the source location of a module", "To define input variables", "To specify the source of the external data", "To declare output variables"],
+            "answer": "To specify the source of the external data"
+        },
+        {
+            "question": "What does the 'module' block allow you to do in a Terraform configuration?",
+            "options": ["To specify the source location of a module", "To define input variables for a module", "To declare output variables for a module", "To create multiple instances of a module"],
+            "answer": "To specify the source location of a module"
+        },
+        {
+            "question": "How can you reference an output variable from a Terraform module in the same configuration?",
+            "options": ["By using environment variables", "By using the 'input' block", "By specifying the output value as a variable", "By using the 'module' block and the output's name"],
+            "answer": "By specifying the output value as a variable"
+        },
+        {
+            "question": "What is the purpose of Terraform locals?",
+            "options": ["To declare input variables", "To define resource dependencies", "To specify the required version of Terraform", "To define values that can be reused within a configuration"],
+            "answer": "To define values that can be reused within a configuration"
+        },
+        {
+            "question": "How are locals typically defined in a Terraform configuration?",
+            "options": ["In a separate 'locals' block", "In the 'module' block", "In the 'resource' block", "As output variables"],
+            "answer": "In a separate 'locals' block"
+        },
+        {
+            "question": "What is a 'count' argument commonly used for in a Terraform resource block?",
+            "options": ["To define output variables", "To specify the required version of Terraform", "To declare resource dependencies", "To create multiple instances of the same resource"],
+            "answer": "To create multiple instances of the same resource"
+        },
+        {
+            "question": "How can you specify the type of a variable in a Terraform input variable block?",
+            "options": ["By using the 'type' keyword", "By using a 'var_type' block", "By specifying the type in a comment", "Type specification is not supported for variables"],
+            "answer": "By using the 'type' argument in the input variable block"
+        },
+        {
+            "question": "What is a Terraform data source?",
+            "options": ["A managed infrastructure object like an AWS EC2 instance", "A reference to an external data source", "A reusable collection of configurations", "A Terraform module"],
+            "answer": "A reference to an external data source"
+        },
+        {
+            "question": "Which block is used to declare a Terraform data source?",
+            "options": ["resource", "module", "data", "provider"],
+            "answer": "data"
+        },
+        {
+            "question": "How can you pass data retrieved from a data source to a Terraform module?",
+            "options": ["By using a for loop in the module block", "By specifying the data source as an input variable", "By using environment variables", "By using a 'data' block in the module"],
+            "answer": "By specifying the data source as an input variable"
+        },
+        {
+            "question": "What is the purpose of the 'depends_on' argument in an input variable block?",
+            "options": ["To specify the source location of a module", "To define the default value for the variable", "To declare resource dependencies", "To indicate that the variable must be provided a value"],
+            "answer": "To indicate that the variable must be provided a value"
+        },
+        {
+            "question": "How can you create multiple instances of the same module in Terraform?",
+            "options": ["By using a for loop in the module block", "By specifying multiple module blocks with the same name", "By using a data source", "By using a resource block"],
+            "answer": "By specifying multiple module blocks with the same name"
+        },
+        {
+            "question": "What is the purpose of the 'depends_on' argument in a module block?",
+            "options": ["To specify the required version of Terraform", "To define input variables for the module", "To declare output variables for the module", "To specify dependencies between modules"],
+            "answer": "To specify dependencies between modules"
+        },
+        {
+            "question": "How can you specify the source location of a Terraform module in a module block?",
+            "options": ["By using the 'module_source' keyword", "By using a separate 'source' block", "By using a 'source' argument in the module block", "By specifying it in the 'input' block"],
+            "answer": "By using a 'source' argument in the module block"
+        },
+        {
+            "question": "What is the purpose of Terraform locals?",
+            "options": ["To declare input variables", "To define resource dependencies", "To specify the required version of Terraform", "To define values that can be reused within a module"],
+            "answer": "To define values that can be reused within a module"
+        },
+        {
+            "question": "How are locals typically defined in a Terraform module?",
+            "options": ["In a separate 'locals' block", "In the 'module' block", "In the 'resource' block", "As output variables"],
+            "answer": "In a separate 'locals' block"
+        },
+        {
+            "question": "What is a 'count' argument commonly used for in a Terraform module block?",
+            "options": ["To define output variables", "To specify the required version of Terraform", "To declare resource dependencies", "To create multiple instances of the same module"],
+            "answer": "To create multiple instances of the same module"
+        },
+        {
+            "question": "How can you specify the type of a variable in a Terraform input variable block for a module?",
+            "options": ["By using the 'type' keyword", "By using a 'var_type' block", "By specifying the type in a comment", "Type specification is not supported for module input variables"],
+            "answer": "By using the 'type' argument in the input variable block"
+        },
+        {
+            "question": "What is a Terraform data source?",
+            "options": ["A managed infrastructure object like an AWS EC2 instance", "A reference to an external data source", "A reusable collection of configurations", "A Terraform module"],
+            "answer": "A reference to an external data source"
+        },
+        {
+            "question": "Which block is used to declare a Terraform data source?",
+            "options": ["resource", "module", "data", "provider"],
+            "answer": "data"
+        },
+        {
+            "question": "How can you pass data retrieved from a data source to a Terraform module?",
+            "options": ["By using a for loop in the module block", "By specifying the data source as an input variable", "By using environment variables", "By using a 'data' block in the module"],
+            "answer": "By specifying the data source as an input variable"
+        },
+        {
+            "question": "What is the purpose of the 'depends_on' argument in an input variable block for a module?",
+            "options": ["To specify the source location of a module", "To define the default value for the variable", "To declare resource dependencies", "To indicate that the variable must be provided a value"],
+            "answer": "To indicate that the variable must be provided a value"
+        },
+        {
+            "question": "How can you create multiple instances of the same module in Terraform?",
+            "options": ["By using a for loop in the module block", "By specifying multiple module blocks with the same name", "By using a data source", "By using a resource block"],
+            "answer": "By specifying multiple module blocks with the same name"
+        },
+        {
+            "question": "What is the purpose of the 'depends_on' argument in a module block for a module?",
+            "options": ["To specify the required version of Terraform", "To define input variables for the module", "To declare output variables for the module", "To specify dependencies between modules"],
+            "answer": "To specify dependencies between modules"
+        },
+        {
+            "question": "How can you specify the source location of a Terraform module in a module block for a module?",
+            "options": ["By using the 'module_source' keyword", "By using a separate 'source' block", "By using a 'source' argument in the module block", "By specifying it in the 'input' block"],
+            "answer": "By using a 'source' argument in the module block"
+        }
+    ]
+}

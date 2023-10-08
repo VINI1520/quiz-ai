@@ -1,0 +1,279 @@
+{
+    "questions": [
+        {
+            "question": "What is Terraform?",
+            "options": ["A cloud computing platform", "An open-source infrastructure as code tool", "A programming language", "A container orchestration tool"],
+            "answer": "An open-source infrastructure as code tool"
+        },
+        {
+            "question": "Which command is used to initialize a new Terraform configuration?",
+            "options": ["terraform start", "terraform init", "terraform new", "terraform create"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "What is the purpose of 'terraform plan' command?",
+            "options": ["To destroy existing resources", "To apply changes to the infrastructure", "To create a new configuration", "To preview changes to the infrastructure"],
+            "answer": "To preview changes to the infrastructure"
+        },
+        {
+            "question": "What does a Terraform configuration file typically have as an extension?",
+            "options": [".tf", ".conf", ".json", ".yaml"],
+            "answer": ".tf"
+        },
+        {
+            "question": "Which language is used to write Terraform configuration files?",
+            "options": ["Python", "JavaScript", "HCL (HashiCorp Configuration Language)", "YAML"],
+            "answer": "HCL (HashiCorp Configuration Language)"
+        },
+        {
+            "question": "What does the 'terraform apply' command do?",
+            "options": ["Prints the current state of the infrastructure", "Creates or updates resources as defined in the configuration", "Deletes all resources", "Rolls back changes to the previous state"],
+            "answer": "Creates or updates resources as defined in the configuration"
+        },
+        {
+            "question": "What is the purpose of the 'terraform validate' command?",
+            "options": ["To check the syntax of Terraform configuration files", "To apply changes to the infrastructure", "To destroy resources", "To list all available providers"],
+            "answer": "To check the syntax of Terraform configuration files"
+        },
+        {
+            "question": "Which command is used to destroy the Terraform-managed infrastructure?",
+            "options": ["terraform terminate", "terraform destroy", "terraform delete", "terraform cleanup"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is a Terraform provider?",
+            "options": ["A Terraform configuration file", "A plugin that interacts with a specific infrastructure platform", "A remote API endpoint", "A Terraform module"],
+            "answer": "A plugin that interacts with a specific infrastructure platform"
+        },
+        {
+            "question": "Which provider is commonly used to manage AWS resources in Terraform?",
+            "options": ["azure", "gcp", "aws", "openstack"],
+            "answer": "aws"
+        },
+        {
+            "question": "What is the purpose of the 'provider' block in a Terraform configuration?",
+            "options": ["To specify the version of Terraform being used", "To authenticate with the Terraform cloud service", "To declare the desired state of resources", "To configure a particular provider"],
+            "answer": "To configure a particular provider"
+        },
+        {
+            "question": "Which command is used to download and install providers mentioned in the configuration?",
+            "options": ["terraform fetch", "terraform install", "terraform get", "terraform update"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "What does the 'terraform providers' command display?",
+            "options": ["A list of available providers", "A summary of resource changes", "A detailed execution plan", "A list of all Terraform commands"],
+            "answer": "A list of available providers"
+        },
+        {
+            "question": "Which file is used to store provider configuration variables?",
+            "options": ["variables.tf", "provider.tf", "config.tf", "terraform.tfvars"],
+            "answer": "provider.tf"
+        },
+        {
+            "question": "How can you specify the version constraint for a provider in your Terraform configuration?",
+            "options": ["Using the 'provider_version' keyword", "Using the 'version' keyword inside the 'provider' block", "Using the 'constraints' block", "Version constraints are not supported for providers"],
+            "answer": "Using the 'version' keyword inside the 'provider' block"
+        },
+        {
+            "question": "What is a 'data source' in Terraform?",
+            "options": ["A source code repository", "A type of provider", "A way to fetch information from an external system", "A version control system"],
+            "answer": "A way to fetch information from an external system"
+        },
+        {
+            "question": "Which command is used to refresh the state of the infrastructure without making any changes?",
+            "options": ["terraform refresh", "terraform status", "terraform update", "terraform verify"],
+            "answer": "terraform refresh"
+        },
+        {
+            "question": "What is the purpose of the 'terraform console' command?",
+            "options": ["To start an interactive shell for executing Terraform code", "To view the current Terraform version", "To display a list of available providers", "To uninstall Terraform"],
+            "answer": "To start an interactive shell for executing Terraform code"
+        },
+        {
+            "question": "Which configuration block is used to define variables in Terraform?",
+            "options": ["variables", "params", "inputs", "vars"],
+            "answer": "variables"
+        },
+        {
+            "question": "What is the default backend for storing Terraform state?",
+            "options": ["Local file system", "Amazon S3", "Google Cloud Storage", "HashiCorp Consul"],
+            "answer": "Local file system"
+        },
+        {
+            "question": "What is 'remote state' in Terraform?",
+            "options": ["State information stored on a remote server or service", "A Terraform configuration file located in a different directory", "A state of resources that cannot be modified", "State information stored in plain text files"],
+            "answer": "State information stored on a remote server or service"
+        },
+        {
+            "question": "Which command is used to initialize a backend for remote state storage?",
+            "options": ["terraform init", "terraform backend", "terraform remote", "terraform configure"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "What is the purpose of 'terraform import' command?",
+            "options": ["To export Terraform configuration files", "To import existing resources into Terraform state", "To create a new Terraform project", "To generate documentation for Terraform modules"],
+            "answer": "To import existing resources into Terraform state"
+        },
+        {
+            "question": "Which provider is commonly used to manage Azure resources in Terraform?",
+            "options": ["aws", "gcp", "azure", "openstack"],
+            "answer": "azure"
+        },
+        {
+            "question": "What is the purpose of the 'terraform graph' command?",
+            "options": ["To generate a visual representation of the Terraform configuration", "To create a graph database", "To display the current state of resources", "To calculate resource dependencies"],
+            "answer": "To generate a visual representation of the Terraform configuration"
+        },
+        {
+            "question": "What does the 'terraform output' command display?",
+            "options": ["A list of available outputs in the configuration", "The current Terraform version", "A summary of resource changes", "A list of all Terraform commands"],
+            "answer": "A list of available outputs in the configuration"
+        },
+        {
+            "question": "How can you specify variable values when running 'terraform apply'?",
+            "options": ["Using the 'variables' flag", "Using the 'input' flag", "Using a variables file", "Variable values cannot be specified during 'terraform apply'"],
+            "answer": "Using a variables file"
+        },
+        {
+            "question": "What is the purpose of the 'terraform workspace' command?",
+            "options": ["To create and manage multiple workspaces for Terraform projects", "To launch a new Terraform workspace", "To uninstall Terraform", "To switch between Terraform versions"],
+            "answer": "To create and manage multiple workspaces for Terraform projects"
+        },
+        {
+            "question": "Which command is used to generate documentation for Terraform configurations?",
+            "options": ["terraform docs", "terraform generate", "terraform docgen", "terraform fmt"],
+            "answer": "terraform docgen"
+        },
+        {
+            "question": "What is 'Terraform Cloud'?",
+            "options": ["A cloud-based version of Terraform", "A separate Terraform CLI tool", "A plugin for managing cloud resources", "A version control system"],
+            "answer": "A cloud-based version of Terraform"
+        },
+        {
+            "question": "What is 'Terraform Enterprise'?",
+            "options": ["An open-source Terraform distribution", "A paid version of Terraform Cloud", "A Terraform GUI tool", "A standalone version of Terraform"],
+            "answer": "A paid version of Terraform Cloud"
+        },
+        {
+            "question": "What is 'HCL2' in the context of Terraform?",
+            "options": ["A new version of the HashiCorp Configuration Language", "A Terraform provider for managing containers", "A version control system", "A Terraform plugin"],
+            "answer": "A new version of the HashiCorp Configuration Language"
+        },
+        {
+            "question": "What is the purpose of the 'terraform state' command?",
+            "options": ["To display a list of available states", "To change the current state of resources", "To encrypt the Terraform state", "To inspect and modify Terraform state files"],
+            "answer": "To inspect and modify Terraform state files"
+        },
+        {
+            "question": "What does the 'terraform taint' command do?",
+            "options": ["Marks a resource as tainted so that it will be recreated on the next 'terraform apply'", "Removes a resource from the Terraform state", "Locks the Terraform state to prevent changes", "Generates a Terraform configuration file"],
+            "answer": "Marks a resource as tainted so that it will be recreated on the next 'terraform apply'"
+        },
+        {
+            "question": "What is the purpose of the 'terraform workspace select' command?",
+            "options": ["To create a new Terraform workspace", "To select and switch between existing Terraform workspaces", "To delete a Terraform workspace", "To initialize a backend for remote state storage"],
+            "answer": "To select and switch between existing Terraform workspaces"
+        },
+        {
+            "question": "What is 'Terraform Sentinel'?",
+            "options": ["A tool for managing Terraform workspaces", "A security scanning tool", "A policy as code framework for enforcing policies on Terraform configurations", "A Terraform GUI tool"],
+            "answer": "A policy as code framework for enforcing policies on Terraform configurations"
+        },
+        {
+            "question": "What is a 'Terraform module'?",
+            "options": ["A type of provider", "A reusable collection of Terraform configurations", "A configuration file for Terraform Cloud", "A remote API endpoint for Terraform"],
+            "answer": "A reusable collection of Terraform configurations"
+        },
+        {
+            "question": "Which command is used to create a new Terraform module?",
+            "options": ["terraform create module", "terraform new module", "terraform init module", "terraform module create"],
+            "answer": "terraform new module"
+        },
+        {
+            "question": "What is 'Terraform Registry'?",
+            "options": ["A place to store Terraform configuration files", "A marketplace for Terraform modules and providers", "A version control system for Terraform", "A Terraform plugin"],
+            "answer": "A marketplace for Terraform modules and providers"
+        },
+        {
+            "question": "What is 'Terraform Cloud CLI'?",
+            "options": ["A command-line interface for managing Terraform Enterprise", "A tool for generating Terraform documentation", "A plugin for managing AWS resources", "A standalone version of Terraform"],
+            "answer": "A command-line interface for managing Terraform Enterprise"
+        },
+        {
+            "question": "Which command is used to upgrade Terraform to the latest version?",
+            "options": ["terraform upgrade", "terraform update", "terraform upgrade-cli", "terraform upgrade-tool"],
+            "answer": "terraform upgrade"
+        },
+        {
+            "question": "What is the purpose of 'terraform fmt' command?",
+            "options": ["To format Terraform configuration files", "To fetch the latest provider updates", "To apply changes to the infrastructure", "To generate documentation for Terraform modules"],
+            "answer": "To format Terraform configuration files"
+        },
+        {
+            "question": "What is 'Terraform Enterprise CLI'?",
+            "options": ["A command-line interface for managing Terraform Cloud", "A tool for generating Terraform documentation", "A plugin for managing Azure resources", "A standalone version of Terraform"],
+            "answer": "A command-line interface for managing Terraform Cloud"
+        },
+        {
+            "question": "What is the purpose of 'terraform plan -out' command?",
+            "options": ["To execute a Terraform plan and save the output to a file", "To apply changes to the infrastructure", "To generate a visual representation of the Terraform configuration", "To switch between Terraform workspaces"],
+            "answer": "To execute a Terraform plan and save the output to a file"
+        },
+        {
+            "question": "What is 'Terraform Enterprise API'?",
+            "options": ["An API for managing Terraform modules", "An API for interacting with Terraform Cloud", "An API for generating Terraform documentation", "An API for managing AWS resources"],
+            "answer": "An API for interacting with Terraform Cloud"
+        },
+        {
+            "question": "What is the purpose of 'terraform import -config' command?",
+            "options": ["To import existing resources into Terraform state", "To create a new Terraform configuration file", "To uninstall Terraform", "To generate documentation for Terraform modules"],
+            "answer": "To import existing resources into Terraform state"
+        },
+        {
+            "question": "What is 'Terraform Sentinel CLI'?",
+            "options": ["A command-line interface for managing Terraform workspaces", "A policy as code framework for enforcing policies on Terraform configurations", "A tool for generating Terraform documentation", "A plugin for managing Google Cloud resources"],
+            "answer": "A policy as code framework for enforcing policies on Terraform configurations"
+        },
+        {
+            "question": "Which command is used to list available Terraform modules and providers in the Terraform Registry?",
+            "options": ["terraform list", "terraform browse", "terraform registry", "terraform search"],
+            "answer": "terraform search"
+        },
+        {
+            "question": "What is the purpose of 'terraform init -backend-config' command?",
+            "options": ["To initialize a backend for remote state storage", "To create a new Terraform workspace", "To import existing resources into Terraform state", "To generate documentation for Terraform modules"],
+            "answer": "To initialize a backend for remote state storage"
+        },
+        {
+            "question": "What is 'Terraform Enterprise CLI'?",
+            "options": ["A command-line interface for managing Terraform workspaces", "A tool for generating Terraform documentation", "A plugin for managing AWS resources", "A standalone version of Terraform"],
+            "answer": "A command-line interface for managing Terraform Enterprise"
+        },
+        {
+            "question": "What is the purpose of 'terraform validate -json' command?",
+            "options": ["To validate Terraform configuration files and output the result in JSON format", "To apply changes to the infrastructure", "To generate a visual representation of the Terraform configuration", "To switch between Terraform workspaces"],
+            "answer": "To validate Terraform configuration files and output the result in JSON format"
+        },
+        {
+            "question": "What is 'Terraform State Locking'?",
+            "options": ["A feature that prevents concurrent access to Terraform state", "A plugin for managing state information", "A command-line tool for exporting state", "A feature for encrypting Terraform state files"],
+            "answer": "A feature that prevents concurrent access to Terraform state"
+        },
+        {
+            "question": "Which command is used to view the current state of Terraform-managed resources?",
+            "options": ["terraform state view", "terraform show", "terraform status", "terraform state list"],
+            "answer": "terraform show"
+        },
+        {
+            "question": "What is 'Terraform Secret Management'?",
+            "options": ["A feature for storing secrets in Terraform configurations", "A Terraform plugin", "A security scanning tool", "A standalone version of Terraform"],
+            "answer": "A feature for storing secrets in Terraform configurations"
+        },
+        {
+            "question": "What is the purpose of the 'terraform untaint' command?",
+            "options": ["To mark a resource as untainted and exclude it from recreation", "To remove Terraform entirely from a system", "To lock the Terraform state", "To switch between Terraform workspaces"],
+            "answer": "To mark a resource as untainted and exclude it from recreation"
+        }
+    ]
+}

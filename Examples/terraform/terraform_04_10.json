@@ -1,0 +1,324 @@
+{
+    "questions": [
+        {
+            "question": "What is Terraform's primary purpose?",
+            "options": ["Infrastructure as Code", "Software Development", "Machine Learning", "Data Analysis"],
+            "answer": "Infrastructure as Code"
+        },
+        {
+            "question": "Which Terraform command is used to initialize a new or existing configuration?",
+            "options": ["terraform start", "terraform init", "terraform new", "terraform create"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "What is the main role of Terraform State?",
+            "options": ["Storing configuration files", "Managing remote backends", "Storing current infrastructure state", "Version control"],
+            "answer": "Storing current infrastructure state"
+        },
+        {
+            "question": "Which backend type in Terraform allows you to store state remotely?",
+            "options": ["Local", "S3", "Git", "Filesystem"],
+            "answer": "S3"
+        },
+        {
+            "question": "What does a Terraform State Lock do?",
+            "options": ["Prevents unauthorized access", "Unlocks remote backends", "Deletes state files", "Enables debugging"],
+            "answer": "Prevents unauthorized access"
+        },
+        {
+            "question": "Which command is used to create a new workspace in Terraform?",
+            "options": ["terraform new workspace", "terraform create workspace", "terraform workspace new", "terraform workspace create"],
+            "answer": "terraform workspace new"
+        },
+        {
+            "question": "In Terraform, what is a workspace used for?",
+            "options": ["Managing plugins", "Creating remote backends", "Managing multiple environments", "Version control"],
+            "answer": "Managing multiple environments"
+        },
+        {
+            "question": "Which Terraform command is used to select a specific workspace?",
+            "options": ["terraform select workspace", "terraform choose workspace", "terraform use workspace", "terraform workspace select"],
+            "answer": "terraform workspace select"
+        },
+        {
+            "question": "What is the primary benefit of using remote backends in Terraform?",
+            "options": ["Faster execution", "Improved security", "Centralized state management", "Better error handling"],
+            "answer": "Centralized state management"
+        },
+        {
+            "question": "Which backend type is commonly used for remote state storage in Terraform?",
+            "options": ["MySQL", "PostgreSQL", "AWS S3", "Local filesystem"],
+            "answer": "AWS S3"
+        },
+        {
+            "question": "What is the purpose of a Terraform Locking mechanism?",
+            "options": ["Prevent unauthorized state access", "Lock configuration files", "Unlock remote backends", "Speed up execution"],
+            "answer": "Prevent unauthorized state access"
+        },
+        {
+            "question": "How can you check the list of existing workspaces in Terraform?",
+            "options": ["terraform list workspaces", "terraform show workspaces", "terraform workspace list", "terraform display workspaces"],
+            "answer": "terraform workspace list"
+        },
+        {
+            "question": "In Terraform, what happens when you run 'terraform workspace delete'?",
+            "options": ["Deletes all resources", "Deletes the current workspace", "Deletes the entire project", "Deletes a specific workspace"],
+            "answer": "Deletes a specific workspace"
+        },
+        {
+            "question": "Which command is used to apply changes to infrastructure in Terraform?",
+            "options": ["terraform apply", "terraform update", "terraform deploy", "terraform change"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "What is the purpose of the 'terraform refresh' command?",
+            "options": ["Updates Terraform itself", "Recreates resources", "Updates the state file", "Fetches the latest remote state"],
+            "answer": "Fetches the latest remote state"
+        },
+        {
+            "question": "Which Terraform command is used to destroy all resources in the current workspace?",
+            "options": ["terraform delete", "terraform destroy", "terraform remove", "terraform obliterate"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the benefit of using Terraform workspaces for managing multiple environments?",
+            "options": ["Simplifies code organization", "Enables remote state storage", "Facilitates parallel execution", "Enforces version control"],
+            "answer": "Simplifies code organization"
+        },
+        {
+            "question": "Which backend type provides support for state locking and consistency in Terraform?",
+            "options": ["Filesystem", "S3", "Local", "None of the above"],
+            "answer": "S3"
+        },
+        {
+            "question": "What is the purpose of Terraform's 'remote_state' data source?",
+            "options": ["Retrieve data from a remote backend", "Create a new workspace", "Lock the state file", "Upgrade Terraform version"],
+            "answer": "Retrieve data from a remote backend"
+        },
+        {
+            "question": "What does Terraform use to uniquely identify resources in its state?",
+            "options": ["Resource names", "Resource types and names", "Resource tags", "Resource IDs"],
+            "answer": "Resource types and names"
+        },
+        {
+            "question": "How can you view the current state of resources in a Terraform workspace?",
+            "options": ["terraform show state", "terraform state show", "terraform view state", "terraform display resources"],
+            "answer": "terraform state show"
+        },
+        {
+            "question": "What happens when you run 'terraform workspace list' with no existing workspaces?",
+            "options": ["An error is thrown", "A default workspace is created", "Nothing happens", "All existing workspaces are deleted"],
+            "answer": "Nothing happens"
+        },
+        {
+            "question": "What is the purpose of the Terraform 'terraform.tfstate' file?",
+            "options": ["Store configuration files", "Store provider information", "Store state data", "Store backup files"],
+            "answer": "Store state data"
+        },
+        {
+            "question": "Which backend type is commonly used for version control with Terraform?",
+            "options": ["Local filesystem", "Git", "S3", "Azure Blob Storage"],
+            "answer": "Git"
+        },
+        {
+            "question": "What does the 'terraform state rm' command do in Terraform?",
+            "options": ["Removes a workspace", "Removes a resource from the state", "Removes a remote backend", "Removes a module"],
+            "answer": "Removes a resource from the state"
+        },
+        {
+            "question": "What is the purpose of a Terraform provider?",
+            "options": ["Manage state", "Define resources", "Store configuration files", "Define workspaces"],
+            "answer": "Define resources"
+        },
+        {
+            "question": "Which command is used to create a new Terraform configuration?",
+            "options": ["terraform new", "terraform init", "terraform create", "terraform config"],
+            "answer": "terraform init"
+        },
+        {
+            "question": "What is the recommended way to manage Terraform secrets and sensitive data?",
+            "options": ["Store them in plaintext in configuration files", "Use environment variables", "Store them in the state file", "Use a secret management tool"],
+            "answer": "Use a secret management tool"
+        },
+        {
+            "question": "Which backend type is suitable for team collaboration in Terraform?",
+            "options": ["Local filesystem", "S3", "Git", "None of the above"],
+            "answer": "Git"
+        },
+        {
+            "question": "What is the purpose of a Terraform variable?",
+            "options": ["Store state data", "Define resources", "Parameterize configurations", "Manage remote backends"],
+            "answer": "Parameterize configurations"
+        },
+        {
+            "question": "Which command is used to validate the syntax of Terraform configuration files?",
+            "options": ["terraform validate", "terraform check", "terraform test", "terraform syntax"],
+            "answer": "terraform validate"
+        },
+        {
+            "question": "What is the main advantage of using Terraform modules?",
+            "options": ["Simplifies code organization", "Enforces version control", "Speeds up execution", "Requires fewer workspaces"],
+            "answer": "Simplifies code organization"
+        },
+        {
+            "question": "Which backend type is commonly used for high availability and durability in Terraform?",
+            "options": ["Local filesystem", "Git", "Azure Blob Storage", "S3"],
+            "answer": "S3"
+        },
+        {
+            "question": "What is the purpose of the 'terraform get' command in Terraform?",
+            "options": ["Fetch remote state", "Fetch modules", "Fetch resources", "Fetch provider configurations"],
+            "answer": "Fetch modules"
+        },
+        {
+            "question": "How can you specify the backend configuration in a Terraform configuration file?",
+            "options": ["Using environment variables", "In a separate configuration file", "In the main resource block", "In a separate module"],
+            "answer": "In a separate configuration file"
+        },
+        {
+            "question": "What is the default behavior of 'terraform workspace select' without specifying a workspace name?",
+            "options": ["It deletes all workspaces", "It switches to the first workspace", "It throws an error", "It lists available workspaces"],
+            "answer": "It switches to the first workspace"
+        },
+        {
+            "question": "Which Terraform command is used to plan and show the changes before applying them?",
+            "options": ["terraform plan", "terraform apply", "terraform show", "terraform visualize"],
+            "answer": "terraform plan"
+        },
+        {
+            "question": "What is the purpose of the 'terraform import' command in Terraform?",
+            "options": ["Import existing resources into Terraform", "Export resources to a remote backend", "Lock the state file", "Create a new workspace"],
+            "answer": "Import existing resources into Terraform"
+        },
+        {
+            "question": "Which backend type is suitable for small-scale, single-user Terraform projects?",
+            "options": ["Local filesystem", "Git", "S3", "Azure Blob Storage"],
+            "answer": "Local filesystem"
+        },
+        {
+            "question": "What is the recommended approach for managing Terraform configurations in a version control system?",
+            "options": ["Store all configurations in a single file", "Store configurations in separate directories", "Use a secret management tool", "Avoid version control"],
+            "answer": "Store configurations in separate directories"
+        },
+        {
+            "question": "What does the 'terraform state mv' command do in Terraform?",
+            "options": ["Move a resource within the state", "Move a workspace", "Move a module", "Move a provider configuration"],
+            "answer": "Move a resource within the state"
+        },
+        {
+            "question": "Which backend type is commonly used for storing state in a highly secure and compliant manner?",
+            "options": ["Local filesystem", "Git", "S3", "Azure Blob Storage"],
+            "answer": "Azure Blob Storage"
+        },
+        {
+            "question": "What is the purpose of the 'terraform graph' command in Terraform?",
+            "options": ["Generate a visual representation of the dependency graph", "Generate a state backup", "Generate a list of available workspaces", "Generate a plan"],
+            "answer": "Generate a visual representation of the dependency graph"
+        },
+        {
+            "question": "In Terraform, what is a provider?",
+            "options": ["A source code repository", "A cloud service API", "A type of resource", "A workspace"],
+            "answer": "A cloud service API"
+        },
+        {
+            "question": "Which command is used to initialize Terraform with a specific backend configuration file?",
+            "options": ["terraform init -backend-config", "terraform configure-backend", "terraform setup-backend", "terraform init-backend"],
+            "answer": "terraform init -backend-config"
+        },
+        {
+            "question": "What is the purpose of a 'terraform.tfvars' file?",
+            "options": ["Store state data", "Store provider information", "Store configuration variables", "Store backup files"],
+            "answer": "Store configuration variables"
+        },
+        {
+            "question": "Which Terraform command is used to apply an execution plan?",
+            "options": ["terraform execute", "terraform apply", "terraform deploy", "terraform update"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "What is the primary use of Terraform's 'remote_state' data source?",
+            "options": ["Retrieve data from a remote backend", "Create a new workspace", "Lock the state file", "Upgrade Terraform version"],
+            "answer": "Retrieve data from a remote backend"
+        },
+        {
+            "question": "Which backend type is commonly used for remote state storage in Terraform?",
+            "options": ["MySQL", "PostgreSQL", "AWS S3", "Local filesystem"],
+            "answer": "AWS S3"
+        },
+        {
+            "question": "What is the purpose of Terraform's 'refresh' operation?",
+            "options": ["Update Terraform version", "Recreate resources", "Update state file", "Fetch the latest remote state"],
+            "answer": "Fetch the latest remote state"
+        },
+        {
+            "question": "Which Terraform command is used to destroy all resources in the current workspace?",
+            "options": ["terraform delete", "terraform destroy", "terraform remove", "terraform obliterate"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the benefit of using Terraform workspaces for managing multiple environments?",
+            "options": ["Simplifies code organization", "Enables remote state storage", "Facilitates parallel execution", "Enforces version control"],
+            "answer": "Simplifies code organization"
+        },
+        {
+            "question": "Which backend type provides support for state locking and consistency in Terraform?",
+            "options": ["Filesystem", "S3", "Local", "None of the above"],
+            "answer": "S3"
+        },
+        {
+            "question": "What is the purpose of a Terraform Locking mechanism?",
+            "options": ["Prevent unauthorized state access", "Lock configuration files", "Unlock remote backends", "Speed up execution"],
+            "answer": "Prevent unauthorized state access"
+        },
+        {
+            "question": "How can you check the list of existing workspaces in Terraform?",
+            "options": ["terraform list workspaces", "terraform show workspaces", "terraform workspace list", "terraform display workspaces"],
+            "answer": "terraform workspace list"
+        },
+        {
+            "question": "In Terraform, what happens when you run 'terraform workspace delete'?",
+            "options": ["Deletes all resources", "Deletes the current workspace", "Deletes the entire project", "Deletes a specific workspace"],
+            "answer": "Deletes a specific workspace"
+        },
+        {
+            "question": "Which command is used to apply changes to infrastructure in Terraform?",
+            "options": ["terraform apply", "terraform update", "terraform deploy", "terraform change"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "What is the purpose of the 'terraform refresh' command?",
+            "options": ["Updates Terraform itself", "Recreates resources", "Updates the state file", "Fetches the latest remote state"],
+            "answer": "Fetches the latest remote state"
+        },
+        {
+            "question": "Which Terraform command is used to select a specific workspace?",
+            "options": ["terraform select workspace", "terraform choose workspace", "terraform use workspace", "terraform workspace select"],
+            "answer": "terraform workspace select"
+        },
+        {
+            "question": "What is the primary benefit of using remote backends in Terraform?",
+            "options": ["Faster execution", "Improved security", "Centralized state management", "Better error handling"],
+            "answer": "Centralized state management"
+        },
+        {
+            "question": "Which backend type in Terraform allows you to store state remotely?",
+            "options": ["Local", "S3", "Git", "Filesystem"],
+            "answer": "S3"
+        },
+        {
+            "question": "What does a Terraform State Lock do?",
+            "options": ["Prevents unauthorized access", "Unlocks remote backends", "Deletes state files", "Enables debugging"],
+            "answer": "Prevents unauthorized access"
+        },
+        {
+            "question": "Which command is used to create a new workspace in Terraform?",
+            "options": ["terraform new workspace", "terraform create workspace", "terraform workspace new", "terraform workspace create"],
+            "answer": "terraform workspace new"
+        },
+        {
+            "question": "In Terraform, what is a workspace used for?",
+            "options": ["Managing plugins", "Creating remote backends", "Managing multiple environments", "Version control"],
+            "answer": "Managing multiple environments"
+        }
+    ]
+}

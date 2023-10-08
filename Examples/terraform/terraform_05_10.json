@@ -1,0 +1,229 @@
+{
+    "questions": [
+        {
+            "question": "What is a resource dependency in Terraform?",
+            "options": ["A relationship between two or more resources where one resource depends on the other", "A type of error in Terraform configuration", "A conditional expression in Terraform", "A loop construct in Terraform"],
+            "answer": "A relationship between two or more resources where one resource depends on the other"
+        },
+        {
+            "question": "What is the purpose of declaring resource dependencies in Terraform?",
+            "options": ["To specify the required version of Terraform", "To create new resources", "To define input variables", "To ensure that resources are created or destroyed in the correct order"],
+            "answer": "To ensure that resources are created or destroyed in the correct order"
+        },
+        {
+            "question": "How can you declare a resource dependency in Terraform?",
+            "options": ["By using a 'depends_on' argument in a resource block", "By using a 'for_each' loop", "By using an 'if' statement", "By using a 'count' argument in a resource block"],
+            "answer": "By using a 'depends_on' argument in a resource block"
+        },
+        {
+            "question": "What is a Terraform output value?",
+            "options": ["A value used as an input for another resource", "A value that Terraform displays after applying a configuration", "A value used to define resource dependencies", "A value used in loops and conditional expressions"],
+            "answer": "A value that Terraform displays after applying a configuration"
+        },
+        {
+            "question": "Which command is used to display Terraform output values?",
+            "options": ["terraform show", "terraform display", "terraform output", "terraform values"],
+            "answer": "terraform output"
+        },
+        {
+            "question": "What is the purpose of loops in Terraform?",
+            "options": ["To create resource dependencies", "To define input variables", "To repeat a set of actions for multiple resources or values", "To display Terraform output values"],
+            "answer": "To repeat a set of actions for multiple resources or values"
+        },
+        {
+            "question": "Which loop construct is used in Terraform to iterate over a list of values?",
+            "options": ["for_each", "for", "while", "foreach"],
+            "answer": "for_each"
+        },
+        {
+            "question": "What is a conditional expression in Terraform?",
+            "options": ["A way to define input variables", "A way to specify resource dependencies", "A way to create loops", "A way to conditionally control resource creation or configuration"],
+            "answer": "A way to conditionally control resource creation or configuration"
+        },
+        {
+            "question": "Which keyword is used for conditional expressions in Terraform?",
+            "options": ["if", "condition", "unless", "case"],
+            "answer": "if"
+        },
+        {
+            "question": "What does the 'count' argument do in a Terraform resource block?",
+            "options": ["It defines resource dependencies", "It specifies the number of resource instances to create", "It defines input variables", "It controls output values"],
+            "answer": "It specifies the number of resource instances to create"
+        },
+        {
+            "question": "What is the purpose of the 'for_each' argument in a Terraform resource block?",
+            "options": ["It defines resource dependencies", "It specifies the number of resource instances to create", "It defines input variables", "It controls output values"],
+            "answer": "It defines resource dependencies"
+        },
+        {
+            "question": "How can you use conditional expressions to create resources conditionally in Terraform?",
+            "options": ["By using the 'create_if' argument", "By using the 'if' condition in a resource block", "By using the 'create_when' argument", "By using the 'unless' condition in a resource block"],
+            "answer": "By using the 'if' condition in a resource block"
+        },
+        {
+            "question": "What is the purpose of error handling in Terraform?",
+            "options": ["To prevent resource dependencies", "To ensure that all resources are always created", "To handle unexpected issues and failures during configuration", "To define input variables"],
+            "answer": "To handle unexpected issues and failures during configuration"
+        },
+        {
+            "question": "Which command is used to validate the syntax of a Terraform configuration without applying it?",
+            "options": ["terraform plan", "terraform validate", "terraform apply", "terraform check"],
+            "answer": "terraform validate"
+        },
+        {
+            "question": "What is a 'Terraform plan'?",
+            "options": ["A plan for creating resources in Terraform", "A plan for handling errors in Terraform", "A plan for defining input variables", "A plan for resource dependencies"],
+            "answer": "A plan for creating resources in Terraform"
+        },
+        {
+            "question": "What is 'Terraform's Execution Plan'?",
+            "options": ["A plan for creating resources in Terraform", "A plan for handling errors in Terraform", "A plan for defining input variables", "A plan for resource dependencies"],
+            "answer": "A plan for creating resources in Terraform"
+        },
+        {
+            "question": "How can you display a Terraform execution plan without applying it?",
+            "options": ["By using the 'terraform show' command", "By using the 'terraform plan' command", "By using the 'terraform display-plan' command", "By using the 'terraform execution-plan' command"],
+            "answer": "By using the 'terraform plan' command"
+        },
+        {
+            "question": "What is 'Terraform Debugging'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A process of identifying and fixing issues in Terraform configurations", "A feature to define input variables"],
+            "answer": "A process of identifying and fixing issues in Terraform configurations"
+        },
+        {
+            "question": "Which command is used to enable verbose logging during Terraform operations for debugging purposes?",
+            "options": ["terraform debug", "terraform log", "terraform verbose", "terraform trace"],
+            "answer": "terraform debug"
+        },
+        {
+            "question": "What is the purpose of 'terraform force-unlock' command?",
+            "options": ["To force the execution of a Terraform plan", "To forcefully unlock a locked Terraform state", "To create a new Terraform workspace", "To import existing resources into Terraform state"],
+            "answer": "To forcefully unlock a locked Terraform state"
+        },
+        {
+            "question": "What is 'Terraform Tracing'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to enable verbose logging during Terraform operations", "A process of identifying and fixing issues in Terraform configurations"],
+            "answer": "A feature to enable verbose logging during Terraform operations"
+        },
+        {
+            "question": "What is the purpose of the 'terraform taint' command?",
+            "options": ["To taint a resource and force its recreation", "To create a new Terraform workspace", "To define input variables", "To enable verbose logging during Terraform operations"],
+            "answer": "To taint a resource and force its recreation"
+        },
+        {
+            "question": "What is 'Terraform Profiling'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A process of measuring the performance of Terraform operations", "A feature to define input variables"],
+            "answer": "A process of measuring the performance of Terraform operations"
+        },
+        {
+            "question": "What is the purpose of 'terraform state mv' command?",
+            "options": ["To move a resource or resource instance in the Terraform state", "To rename a Terraform state file", "To create a new Terraform state", "To initialize a backend for remote state storage"],
+            "answer": "To move a resource or resource instance in the Terraform state"
+        },
+        {
+            "question": "What is 'Terraform Error Handling'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A process of identifying and fixing issues in Terraform configurations", "A feature to define input variables"],
+            "answer": "A process of identifying and fixing issues in Terraform configurations"
+        },
+        {
+            "question": "What is the purpose of 'terraform import' command?",
+            "options": ["To forcefully unlock a locked Terraform state", "To import existing resources into Terraform state", "To create a new Terraform workspace", "To enable verbose logging during Terraform operations"],
+            "answer": "To import existing resources into Terraform state"
+        },
+        {
+            "question": "What is 'Terraform Debugging'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A process of identifying and fixing issues in Terraform configurations", "A feature to define input variables"],
+            "answer": "A process of identifying and fixing issues in Terraform configurations"
+        },
+        {
+            "question": "What is the purpose of 'terraform graph' command?",
+            "options": ["To display a graph of Terraform resources and their dependencies", "To display Terraform output values", "To create a new Terraform workspace", "To enable verbose logging during Terraform operations"],
+            "answer": "To display a graph of Terraform resources and their dependencies"
+        },
+        {
+            "question": "What is 'Terraform Error Handling'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A process of identifying and fixing issues in Terraform configurations", "A feature to define input variables"],
+            "answer": "A process of identifying and fixing issues in Terraform configurations"
+        },
+        {
+            "question": "What is the purpose of 'terraform console' command?",
+            "options": ["To create a new Terraform workspace", "To define input variables", "To enable verbose logging during Terraform operations", "To enter an interactive console for evaluating expressions and debugging"],
+            "answer": "To enter an interactive console for evaluating expressions and debugging"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform refresh' command?",
+            "options": ["To create a new Terraform workspace", "To refresh the Terraform execution plan", "To enable verbose logging during Terraform operations", "To delete all Terraform resources"],
+            "answer": "To refresh the Terraform execution plan"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform fmt' command?",
+            "options": ["To create a new Terraform workspace", "To format and beautify Terraform configuration files", "To enable verbose logging during Terraform operations", "To display Terraform output values"],
+            "answer": "To format and beautify Terraform configuration files"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform plan -out' command?",
+            "options": ["To create a new Terraform workspace", "To specify the output file for the Terraform plan", "To enable verbose logging during Terraform operations", "To delete all Terraform resources"],
+            "answer": "To specify the output file for the Terraform plan"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform apply' command?",
+            "options": ["To create a new Terraform workspace", "To apply the Terraform configuration and create or update resources", "To enable verbose logging during Terraform operations", "To delete all Terraform resources"],
+            "answer": "To apply the Terraform configuration and create or update resources"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform destroy' command?",
+            "options": ["To create a new Terraform workspace", "To enable verbose logging during Terraform operations", "To apply the Terraform configuration and create or update resources", "To destroy all Terraform-managed resources"],
+            "answer": "To destroy all Terraform-managed resources"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform state' command?",
+            "options": ["To create a new Terraform workspace", "To enable verbose logging during Terraform operations", "To manage Terraform state", "To destroy all Terraform-managed resources"],
+            "answer": "To manage Terraform state"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        },
+        {
+            "question": "What is the purpose of the 'terraform import' command?",
+            "options": ["To forcefully unlock a locked Terraform state", "To import existing resources into Terraform state", "To create a new Terraform workspace", "To enable verbose logging during Terraform operations"],
+            "answer": "To import existing resources into Terraform state"
+        },
+        {
+            "question": "What is 'Terraform Stack Traces'?",
+            "options": ["A feature to prevent errors in Terraform configurations", "A feature to display resource dependencies", "A feature to display a detailed error message with a traceback", "A feature to define input variables"],
+            "answer": "A feature to display a detailed error message with a traceback"
+        }
+    ]
+}

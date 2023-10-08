@@ -1,0 +1,259 @@
+{
+    "questions": [
+        {
+            "question": "What does CI/CD stand for in the context of software development?",
+            "options": ["Continuous Integration/Continuous Deployment", "Code Integration/Code Deployment", "Continuous Improvement/Continuous Deployment", "Code Inspection/Continuous Deployment"],
+            "answer": "Continuous Integration/Continuous Deployment"
+        },
+        {
+            "question": "Which tool is commonly used for implementing CI/CD pipelines for Terraform?",
+            "options": ["Jenkins", "GitLab CI/CD", "Travis CI", "CircleCI"],
+            "answer": "GitLab CI/CD"
+        },
+        {
+            "question": "What is the primary benefit of using CI/CD with Terraform?",
+            "options": ["Automated testing of Terraform code", "Improved code collaboration", "Version control of infrastructure", "Enhanced security scanning"],
+            "answer": "Automated testing of Terraform code"
+        },
+        {
+            "question": "What is the purpose of a 'Terraform module'?",
+            "options": ["To define infrastructure as code", "To encapsulate and reuse Terraform configurations", "To deploy Terraform providers", "To manage Terraform workspaces"],
+            "answer": "To encapsulate and reuse Terraform configurations"
+        },
+        {
+            "question": "Which file defines the main configuration for a Terraform project?",
+            "options": ["terraform.hcl", "main.tf", "config.tf", "project.tf"],
+            "answer": "main.tf"
+        },
+        {
+            "question": "What does HCL stand for in Terraform?",
+            "options": ["HashiCorp Configuration Language", "High-Level Configuration Language", "Hybrid Configuration Language", "Hyperlinked Configuration Language"],
+            "answer": "HashiCorp Configuration Language"
+        },
+        {
+            "question": "Which HCL feature allows you to define variables and their values within a configuration file?",
+            "options": ["Variable Expressions", "Variable Blocks", "Variable Definitions", "Variable Assignments"],
+            "answer": "Variable Blocks"
+        },
+        {
+            "question": "In HCL, what is the purpose of the 'for' expression?",
+            "options": ["To iterate over a list or map", "To define a variable", "To conditionally execute a block of code", "To specify version constraints"],
+            "answer": "To iterate over a list or map"
+        },
+        {
+            "question": "What is the 'count' argument used for in Terraform?",
+            "options": ["To specify the number of resources to create", "To set environment variables", "To configure version constraints", "To define variable dependencies"],
+            "answer": "To specify the number of resources to create"
+        },
+        {
+            "question": "What is the purpose of 'terraform init' command?",
+            "options": ["To initialize a new Terraform configuration", "To apply changes to infrastructure", "To destroy resources", "To create a new Terraform workspace"],
+            "answer": "To initialize a new Terraform configuration"
+        },
+        {
+            "question": "What is the purpose of 'terraform plan' command?",
+            "options": ["To apply changes to infrastructure", "To destroy resources", "To create a new Terraform workspace", "To preview changes to infrastructure"],
+            "answer": "To preview changes to infrastructure"
+        },
+        {
+            "question": "How can you specify version constraints for a Terraform provider?",
+            "options": ["Using the 'provider' block", "Using 'constraints.tf'", "Using 'version.tf'", "Using 'provider_constraints'"],
+            "answer": "Using the 'provider' block"
+        },
+        {
+            "question": "What is the purpose of the 'required_providers' block in a Terraform configuration?",
+            "options": ["To specify the required provider versions", "To define provider aliases", "To declare provider credentials", "To list available providers"],
+            "answer": "To specify the required provider versions"
+        },
+        {
+            "question": "What command is used to upgrade a provider to the latest version in Terraform?",
+            "options": ["terraform upgrade", "terraform update", "terraform get", "terraform apply"],
+            "answer": "terraform init -upgrade"
+        },
+        {
+            "question": "Which HCL feature allows you to create a reusable configuration template?",
+            "options": ["Variables", "Functions", "Modules", "Loops"],
+            "answer": "Modules"
+        },
+        {
+            "question": "What is the purpose of 'terraform workspace' command in Terraform?",
+            "options": ["To create a new Terraform workspace", "To manage workspaces", "To apply changes to infrastructure", "To destroy resources"],
+            "answer": "To manage workspaces"
+        },
+        {
+            "question": "What is the recommended practice for storing sensitive data like API keys in Terraform?",
+            "options": ["Store them in plain text in configuration files", "Use environment variables", "Encrypt them using built-in Terraform encryption", "Store them in a public GitHub repository"],
+            "answer": "Use environment variables"
+        },
+        {
+            "question": "In Terraform, what does 'terraform.tfstate' file store?",
+            "options": ["Provider configuration", "Terraform version", "Current state of managed resources", "HCL syntax"],
+            "answer": "Current state of managed resources"
+        },
+        {
+            "question": "What is 'remote state' in Terraform?",
+            "options": ["Storing state files on a remote server", "Running Terraform in a remote environment", "State of remote resources", "Remote code execution in Terraform"],
+            "answer": "Storing state files on a remote server"
+        },
+        {
+            "question": "What is the primary purpose of using version constraints in Terraform configurations?",
+            "options": ["To specify the Terraform version to use", "To define resource dependencies", "To control the versions of provider plugins", "To set up multi-environment configurations"],
+            "answer": "To control the versions of provider plugins"
+        },
+        {
+            "question": "Which operator is used to specify an inclusive version constraint in Terraform?",
+            "options": [">=", "<=", "==", "~>"],
+            "answer": ">="
+        },
+        {
+            "question": "What does the '~>' operator indicate in a version constraint like '1.2.0 ~> 1.3.0'?",
+            "options": ["Greater than or equal to 1.2.0 and less than 1.3.0", "Exactly 1.2.0", "Any version greater than 1.2.0", "Exactly 1.3.0"],
+            "answer": "Greater than or equal to 1.2.0 and less than 1.3.0"
+        },
+        {
+            "question": "Which command is used to upgrade all provider plugins to the latest compatible versions in Terraform?",
+            "options": ["terraform upgrade", "terraform update", "terraform init -upgrade", "terraform apply"],
+            "answer": "terraform init -upgrade"
+        },
+        {
+            "question": "What is the purpose of the 'backend' block in a Terraform configuration?",
+            "options": ["To define the network backend", "To specify the project's code repository", "To configure remote state storage", "To list available backends"],
+            "answer": "To configure remote state storage"
+        },
+        {
+            "question": "Which Terraform command is used to apply changes to infrastructure?",
+            "options": ["terraform apply", "terraform plan", "terraform destroy", "terraform init"],
+            "answer": "terraform apply"
+        },
+        {
+            "question": "In Terraform, what is a 'data source' used for?",
+            "options": ["To define a data center location", "To access data from external sources", "To store sensitive data", "To specify provider credentials"],
+            "answer": "To access data from external sources"
+        },
+        {
+            "question": "What is the purpose of the 'depends_on' argument in Terraform resources?",
+            "options": ["To specify version constraints", "To declare provider aliases", "To define resource dependencies", "To create provider credentials"],
+            "answer": "To define resource dependencies"
+        },
+        {
+            "question": "What is the 'backend.tf' file used for in Terraform?",
+            "options": ["To define the network backend", "To store provider credentials", "To configure remote state storage", "To specify version constraints"],
+            "answer": "To define the network backend"
+        },
+        {
+            "question": "What does 'Terraform Cloud' offer in terms of CI/CD for Terraform projects?",
+            "options": ["Built-in CI/CD pipelines", "Storage for sensitive data", "Remote code execution", "Version control for infrastructure"],
+            "answer": "Built-in CI/CD pipelines"
+        },
+        {
+            "question": "What is 'remote execution' in Terraform?",
+            "options": ["Storing execution logs remotely", "Running Terraform in a remote environment", "State of remote resources", "Remote code execution in Terraform"],
+            "answer": "Running Terraform in a remote environment"
+        },
+        {
+            "question": "What is 'Terragrunt' and how is it related to Terraform?",
+            "options": ["A testing framework for Terraform", "A third-party tool for managing Terraform configurations", "A built-in Terraform feature", "A specialized Terraform provider"],
+            "answer": "A third-party tool for managing Terraform configurations"
+        },
+        {
+            "question": "What is the purpose of 'terraform validate' command?",
+            "options": ["To apply changes to infrastructure", "To destroy resources", "To check the syntax of Terraform configuration files", "To create a new Terraform workspace"],
+            "answer": "To check the syntax of Terraform configuration files"
+        },
+        {
+            "question": "What does 'DRY' stand for in the context of Terraform code?",
+            "options": ["Don't Repeat Yourself", "Deploy, Run, Yield", "Data Repository Yield", "Dependency Resolution Yarn"],
+            "answer": "Don't Repeat Yourself"
+        },
+        {
+            "question": "Which HCL feature allows you to conditionally include or exclude blocks of configuration?",
+            "options": ["Variables", "Functions", "Conditional Expressions", "Loops"],
+            "answer": "Conditional Expressions"
+        },
+        {
+            "question": "What is the purpose of the 'locals' block in Terraform?",
+            "options": ["To define local variables", "To declare provider aliases", "To configure remote state storage", "To specify version constraints"],
+            "answer": "To define local variables"
+        },
+        {
+            "question": "Which command is used to destroy resources created by Terraform?",
+            "options": ["terraform destroy", "terraform apply", "terraform plan", "terraform init"],
+            "answer": "terraform destroy"
+        },
+        {
+            "question": "What is the purpose of the 'backend-config' block in Terraform?",
+            "options": ["To define the network backend", "To configure remote state storage", "To list available backends", "To specify provider credentials"],
+            "answer": "To configure remote state storage"
+        },
+        {
+            "question": "What is 'Infrastructure as Code' (IaC) and how does it relate to Terraform?",
+            "options": ["A software development methodology", "A Terraform-specific term", "A tool for managing infrastructure", "A concept of defining infrastructure using code"],
+            "answer": "A concept of defining infrastructure using code"
+        },
+        {
+            "question": "What is 'Terraform Enterprise' and how does it differ from open-source Terraform?",
+            "options": ["A paid version of Terraform", "An online Terraform documentation portal", "A testing framework for Terraform", "A specialized Terraform provider"],
+            "answer": "A paid version of Terraform"
+        },
+        {
+            "question": "What is the purpose of the 'count' and 'for_each' arguments in Terraform resources?",
+            "options": ["To configure remote state storage", "To define resource dependencies", "To specify version constraints", "To control resource repetition"],
+            "answer": "To control resource repetition"
+        },
+        {
+            "question": "In Terraform, what is a 'resource type'?",
+            "options": ["A specific resource instance", "A resource configuration file", "A category of resource", "A Terraform module"],
+            "answer": "A category of resource"
+        },
+        {
+            "question": "What is the 'tfvars' file used for in Terraform?",
+            "options": ["To define local variables", "To specify provider credentials", "To configure remote state storage", "To set environment variables"],
+            "answer": "To specify provider credentials"
+        },
+        {
+            "question": "What is the purpose of 'terraform console' command in Terraform?",
+            "options": ["To check the syntax of Terraform configuration files", "To apply changes to infrastructure", "To destroy resources", "To interactively evaluate expressions"],
+            "answer": "To interactively evaluate expressions"
+        },
+        {
+            "question": "What is 'Terraform Registry' and how is it used?",
+            "options": ["A version control system for Terraform", "A public repository of Terraform modules and providers", "A built-in Terraform feature", "A testing framework for Terraform"],
+            "answer": "A public repository of Terraform modules and providers"
+        },
+        {
+            "question": "What is 'Infrastructure as Code' (IaC) and how does it relate to Terraform?",
+            "options": ["A software development methodology", "A Terraform-specific term", "A tool for managing infrastructure", "A concept of defining infrastructure using code"],
+            "answer": "A concept of defining infrastructure using code"
+        },
+        {
+            "question": "What is 'Terraform Enterprise' and how does it differ from open-source Terraform?",
+            "options": ["A paid version of Terraform", "An online Terraform documentation portal", "A testing framework for Terraform", "A specialized Terraform provider"],
+            "answer": "A paid version of Terraform"
+        },
+        {
+            "question": "What is the purpose of the 'count' and 'for_each' arguments in Terraform resources?",
+            "options": ["To configure remote state storage", "To define resource dependencies", "To specify version constraints", "To control resource repetition"],
+            "answer": "To control resource repetition"
+        },
+        {
+            "question": "In Terraform, what is a 'resource type'?",
+            "options": ["A specific resource instance", "A resource configuration file", "A category of resource", "A Terraform module"],
+            "answer": "A category of resource"
+        },
+        {
+            "question": "What is the 'tfvars' file used for in Terraform?",
+            "options": ["To define local variables", "To specify provider credentials", "To configure remote state storage", "To set environment variables"],
+            "answer": "To specify provider credentials"
+        },
+        {
+            "question": "What is the purpose of 'terraform console' command in Terraform?",
+            "options": ["To check the syntax of Terraform configuration files", "To apply changes to infrastructure", "To destroy resources", "To interactively evaluate expressions"],
+            "answer": "To interactively evaluate expressions"
+        },
+        {
+            "question": "What is 'Terraform Registry' and how is it used?",
+            "options": ["A version control system for Terraform", "A public repository of Terraform modules and providers", "A built-in Terraform feature", "A testing framework for Terraform"],
+            "answer": "A public repository of Terraform modules and providers"
+        }
+    ]
+}

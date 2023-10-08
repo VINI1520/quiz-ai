@@ -1,7 +1,7 @@
 I am preparing for a Terraform certification. 
 Could you divide the content I should know on this subject into 30 topics?
 ----------------------------------------------------------------
-Write a set of 50 trivia questions about the topics below: 
+Write a set of 50 trivia unique questions about the topics below: 
 Terraform CLI commands
 Terraform providers and modules
 Terraform state management
